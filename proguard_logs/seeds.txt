@@ -1,0 +1,177 @@
+chan.android.game.memoblock.Difficulty: chan.android.game.memoblock.Difficulty[] values()
+chan.android.game.memoblock.Difficulty: chan.android.game.memoblock.Difficulty valueOf(java.lang.String)
+chan.android.game.memoblock.GameActivity
+chan.android.game.memoblock.GameActivity: GameActivity()
+chan.android.game.memoblock.GameSettings$Key: chan.android.game.memoblock.GameSettings$Key[] values()
+chan.android.game.memoblock.GameSettings$Key: chan.android.game.memoblock.GameSettings$Key valueOf(java.lang.String)
+chan.android.game.memoblock.MemoBlockApplication
+chan.android.game.memoblock.MemoBlockApplication: MemoBlockApplication()
+chan.android.game.memoblock.MoveState: chan.android.game.memoblock.MoveState[] values()
+chan.android.game.memoblock.MoveState: chan.android.game.memoblock.MoveState valueOf(java.lang.String)
+chan.android.game.memoblock.PatternView
+chan.android.game.memoblock.PatternView: PatternView(android.content.Context)
+chan.android.game.memoblock.PatternView: PatternView(android.content.Context,android.util.AttributeSet)
+chan.android.game.memoblock.PatternView: PatternView(android.content.Context,android.util.AttributeSet,int)
+chan.android.game.memoblock.PatternView: void setOnMoveListener(chan.android.game.memoblock.PatternView$OnMoveListener)
+chan.android.game.memoblock.PatternView: void setPatternGrid(chan.android.game.memoblock.PatternGrid)
+chan.android.game.memoblock.PatternView: chan.android.game.memoblock.Cell getActiveCell()
+chan.android.game.memoblock.PatternView: chan.android.game.memoblock.MoveState getMoveState()
+chan.android.game.memoblock.PatternView: void setTouchable(boolean)
+chan.android.game.memoblock.PatternView: void setShowPattern(boolean)
+chan.android.game.memoblock.R$anim: int all_the_way_up
+chan.android.game.memoblock.R$anim: int appearing
+chan.android.game.memoblock.R$anim: int bubble_up
+chan.android.game.memoblock.R$anim: int rotate
+chan.android.game.memoblock.R$anim: int slide_down
+chan.android.game.memoblock.R$anim: int slide_left
+chan.android.game.memoblock.R$anim: int slide_right
+chan.android.game.memoblock.R$anim: int slide_up
+chan.android.game.memoblock.R$attr: int background_color
+chan.android.game.memoblock.R$attr: int border_width
+chan.android.game.memoblock.R$attr: int grid_line_color
+chan.android.game.memoblock.R$attr: int label_text
+chan.android.game.memoblock.R$attr: int marker_color
+chan.android.game.memoblock.R$color: int aluminum1
+chan.android.game.memoblock.R$color: int aluminum2
+chan.android.game.memoblock.R$color: int aluminum3
+chan.android.game.memoblock.R$color: int aluminum4
+chan.android.game.memoblock.R$color: int aluminum5
+chan.android.game.memoblock.R$color: int aluminum5_5
+chan.android.game.memoblock.R$color: int aluminum6
+chan.android.game.memoblock.R$color: int blue2
+chan.android.game.memoblock.R$color: int blue_base
+chan.android.game.memoblock.R$color: int blue_facebook
+chan.android.game.memoblock.R$color: int blue_gradientE
+chan.android.game.memoblock.R$color: int blue_gradientS
+chan.android.game.memoblock.R$color: int blue_stroke
+chan.android.game.memoblock.R$color: int brown_1
+chan.android.game.memoblock.R$color: int brown_10
+chan.android.game.memoblock.R$color: int brown_13
+chan.android.game.memoblock.R$color: int brown_2
+chan.android.game.memoblock.R$color: int brown_3
+chan.android.game.memoblock.R$color: int brown_4
+chan.android.game.memoblock.R$color: int brown_6
+chan.android.game.memoblock.R$color: int button_selected
+chan.android.game.memoblock.R$color: int button_unselected
+chan.android.game.memoblock.R$color: int candidate_normal
+chan.android.game.memoblock.R$color: int candidate_other
+chan.android.game.memoblock.R$color: int candidate_recommended
+chan.android.game.memoblock.R$color: int dark_gray
+chan.android.game.memoblock.R$color: int dark_green
+chan.android.game.memoblock.R$color: int dark_turquoise
+chan.android.game.memoblock.R$color: int darker_turquoise
+chan.android.game.memoblock.R$color: int dim
+chan.android.game.memoblock.R$color: int download_disabled_gray
+chan.android.game.memoblock.R$color: int drawer_default
+chan.android.game.memoblock.R$color: int drawer_focus
+chan.android.game.memoblock.R$color: int drawer_press
+chan.android.game.memoblock.R$color: int fb_background
+chan.android.game.memoblock.R$color: int fb_header
+chan.android.game.memoblock.R$color: int fb_text_bg
+chan.android.game.memoblock.R$color: int gold
+chan.android.game.memoblock.R$color: int green
+chan.android.game.memoblock.R$color: int highlight
+chan.android.game.memoblock.R$color: int lightGreen
+chan.android.game.memoblock.R$color: int light_blue
+chan.android.game.memoblock.R$color: int light_grey
+chan.android.game.memoblock.R$color: int light_turquoise
+chan.android.game.memoblock.R$color: int menu_shadow_color
+chan.android.game.memoblock.R$color: int menu_text_color
+chan.android.game.memoblock.R$color: int orange
+chan.android.game.memoblock.R$color: int orange_2
+chan.android.game.memoblock.R$color: int red
+chan.android.game.memoblock.R$color: int red1
+chan.android.game.memoblock.R$color: int red10
+chan.android.game.memoblock.R$color: int red2
+chan.android.game.memoblock.R$color: int red5
+chan.android.game.memoblock.R$color: int score_box
+chan.android.game.memoblock.R$color: int score_label
+chan.android.game.memoblock.R$color: int selected_background
+chan.android.game.memoblock.R$color: int tab_dark
+chan.android.game.memoblock.R$color: int tab_medium
+chan.android.game.memoblock.R$color: int tab_transparent
+chan.android.game.memoblock.R$color: int tablegreen
+chan.android.game.memoblock.R$color: int textview_highscore
+chan.android.game.memoblock.R$color: int textview_newgame
+chan.android.game.memoblock.R$color: int textview_settings
+chan.android.game.memoblock.R$color: int twitter_grey
+chan.android.game.memoblock.R$color: int vimeo_dark_grey
+chan.android.game.memoblock.R$color: int vimeo_grey
+chan.android.game.memoblock.R$color: int vimeo_light_grey
+chan.android.game.memoblock.R$color: int washer_purple
+chan.android.game.memoblock.R$color: int watermelon
+chan.android.game.memoblock.R$color: int watermelon_red
+chan.android.game.memoblock.R$color: int white
+chan.android.game.memoblock.R$dimen: int activity_horizontal_margin
+chan.android.game.memoblock.R$dimen: int activity_vertical_margin
+chan.android.game.memoblock.R$drawable: int block
+chan.android.game.memoblock.R$drawable: int check_mark_256
+chan.android.game.memoblock.R$drawable: int cross_mark_256
+chan.android.game.memoblock.R$drawable: int ic_launcher
+chan.android.game.memoblock.R$drawable: int rounded_rectangle
+chan.android.game.memoblock.R$drawable: int rounded_square
+chan.android.game.memoblock.R$drawable: int score_box
+chan.android.game.memoblock.R$drawable: int settings_shape
+chan.android.game.memoblock.R$id: int difficult_row_$_textview_level
+chan.android.game.memoblock.R$id: int game_$_pattern_view
+chan.android.game.memoblock.R$id: int game_$_scoreboxview_best
+chan.android.game.memoblock.R$id: int game_$_scoreboxview_current
+chan.android.game.memoblock.R$id: int game_$_textview_clock
+chan.android.game.memoblock.R$id: int game_$_textview_game_title
+chan.android.game.memoblock.R$id: int game_$_textview_highscore
+chan.android.game.memoblock.R$id: int game_$_textview_move_count
+chan.android.game.memoblock.R$id: int game_$_textview_newgame
+chan.android.game.memoblock.R$id: int game_$_textview_settings
+chan.android.game.memoblock.R$id: int game_$_textview_title
+chan.android.game.memoblock.R$id: int game_$_viewflipper
+chan.android.game.memoblock.R$id: int game_dialog_$_button_left
+chan.android.game.memoblock.R$id: int game_dialog_$_button_right
+chan.android.game.memoblock.R$id: int game_dialog_$_textview_msg
+chan.android.game.memoblock.R$id: int highscore_$_listview
+chan.android.game.memoblock.R$id: int highscore_row_$_date
+chan.android.game.memoblock.R$id: int highscore_row_$_level
+chan.android.game.memoblock.R$id: int highscore_row_$_score
+chan.android.game.memoblock.R$id: int main_$_linearlayout_outermost
+chan.android.game.memoblock.R$id: int score_box_$_textview_animation
+chan.android.game.memoblock.R$id: int score_box_$_textview_label
+chan.android.game.memoblock.R$id: int score_box_$_textview_score
+chan.android.game.memoblock.R$id: int setting_$_checkbox_clock
+chan.android.game.memoblock.R$id: int setting_$_checkbox_sound
+chan.android.game.memoblock.R$id: int setting_$_spinner_difficulty
+chan.android.game.memoblock.R$layout: int diffcult_row
+chan.android.game.memoblock.R$layout: int game
+chan.android.game.memoblock.R$layout: int game_dialog
+chan.android.game.memoblock.R$layout: int highscore
+chan.android.game.memoblock.R$layout: int highscore_header
+chan.android.game.memoblock.R$layout: int highscore_row
+chan.android.game.memoblock.R$layout: int main
+chan.android.game.memoblock.R$layout: int score_box
+chan.android.game.memoblock.R$layout: int settings
+chan.android.game.memoblock.R$raw: int tap
+chan.android.game.memoblock.R$raw: int win
+chan.android.game.memoblock.R$string: int action_settings
+chan.android.game.memoblock.R$string: int app_name
+chan.android.game.memoblock.R$string: int hello_world
+chan.android.game.memoblock.R$style: int AppTheme
+chan.android.game.memoblock.R$styleable: int[] PatternView
+chan.android.game.memoblock.R$styleable: int PatternView_background_color
+chan.android.game.memoblock.R$styleable: int PatternView_border_width
+chan.android.game.memoblock.R$styleable: int PatternView_grid_line_color
+chan.android.game.memoblock.R$styleable: int PatternView_marker_color
+chan.android.game.memoblock.R$styleable: int[] ScoreBoxView
+chan.android.game.memoblock.R$styleable: int ScoreBoxView_label_text
+chan.android.game.memoblock.RoundedRectListView
+chan.android.game.memoblock.RoundedRectListView: RoundedRectListView(android.content.Context)
+chan.android.game.memoblock.RoundedRectListView: RoundedRectListView(android.content.Context,android.util.AttributeSet)
+chan.android.game.memoblock.ScoreBoxView
+chan.android.game.memoblock.ScoreBoxView: ScoreBoxView(android.content.Context)
+chan.android.game.memoblock.ScoreBoxView: ScoreBoxView(android.content.Context,android.util.AttributeSet)
+chan.android.game.memoblock.ScoreBoxView: int getScore()
+chan.android.game.memoblock.ScoreBoxView: void setScore(int)
+chan.android.game.memoblock.ScoreBoxView: ScoreBoxView(android.content.Context,android.util.AttributeSet,int)
+chan.android.game.memoblock.SettingsActivity
+chan.android.game.memoblock.SettingsActivity: SettingsActivity()
+chan.android.game.memoblock.highscore.HighScoreActivity
+chan.android.game.memoblock.highscore.HighScoreActivity: HighScoreActivity()
+chan.android.game.memoblock.highscore.HighScoreContentProvider
+chan.android.game.memoblock.highscore.HighScoreContentProvider: HighScoreContentProvider()

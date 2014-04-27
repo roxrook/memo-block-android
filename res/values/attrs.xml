@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScoreBoxView">
+        <attr name="label_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="PatternView">
+        <attr name="border_width" format="float"/>
+        <attr name="grid_line_color" format="color"/>
+        <attr name="marker_color" format="color"/>
+        <attr name="background_color" format="color"/>
+    </declare-styleable>
+</resources>

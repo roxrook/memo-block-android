@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/aluminum6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/settings_shape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:layout_gravity="center_horizontal"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/orange_2"
+                />
+
+        <CheckBox
+                android:id="@+id/setting_$_checkbox_sound"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Sound"
+                android:textColor="@color/aluminum6"
+                android:textStyle="bold"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:background="@color/brown_6"
+                />
+
+
+        <CheckBox
+                android:id="@+id/setting_$_checkbox_clock"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Clock"
+                android:textColor="@color/aluminum6"
+                android:textStyle="bold"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:background="@color/brown_6"
+                />
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/aluminum6"
+                    android:text="Level"
+                    android:textStyle="bold"
+                    />
+
+            <Spinner
+                    android:id="@+id/setting_$_spinner_difficulty"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
