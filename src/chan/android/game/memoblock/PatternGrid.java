@@ -35,7 +35,7 @@ public class PatternGrid {
 
     public void generate(Generatable generator) {
         this.generator = generator;
-        count = generator.generate(grid);
+        count = this.generator.generate(grid);
         score = count * 5;
     }
 

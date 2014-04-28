@@ -292,19 +292,33 @@ chan.android.game.memoblock.generator.RandomGenerator -> chan.android.game.memob
 chan.android.game.memoblock.highscore.HighScoreActivity -> chan.android.game.memoblock.highscore.HighScoreActivity:
     java.text.SimpleDateFormat DATE_FORMATTER -> a
     chan.android.game.memoblock.highscore.HighScoreActivity$HighScoreCursorAdapter cursorAdapter -> b
+    chan.android.game.memoblock.highscore.HighScoreManager highScoreManager -> c
     void onCreate(android.os.Bundle) -> onCreate
+    void confirmDelete(android.database.Cursor) -> a
     android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
     void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
     void onLoaderReset(android.content.Loader) -> onLoaderReset
     java.lang.String readableTimeStamp(java.lang.String) -> a
     void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    java.lang.String access$000(chan.android.game.memoblock.highscore.HighScoreActivity,java.lang.String) -> a
-chan.android.game.memoblock.highscore.HighScoreActivity$HighScoreCursorAdapter -> chan.android.game.memoblock.highscore.a:
+    chan.android.game.memoblock.highscore.HighScoreActivity$HighScoreCursorAdapter access$000(chan.android.game.memoblock.highscore.HighScoreActivity) -> a
+    void access$100(chan.android.game.memoblock.highscore.HighScoreActivity,android.database.Cursor) -> a
+    chan.android.game.memoblock.highscore.HighScoreManager access$200(chan.android.game.memoblock.highscore.HighScoreActivity) -> b
+    java.lang.String access$300(chan.android.game.memoblock.highscore.HighScoreActivity,java.lang.String) -> a
+chan.android.game.memoblock.highscore.HighScoreActivity$1 -> chan.android.game.memoblock.highscore.a:
+    chan.android.game.memoblock.highscore.HighScoreActivity this$0 -> a
+    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
+chan.android.game.memoblock.highscore.HighScoreActivity$2 -> chan.android.game.memoblock.highscore.b:
+    chan.android.game.memoblock.GameDialog val$d -> a
+    java.lang.String val$date -> b
+    chan.android.game.memoblock.highscore.HighScoreActivity this$0 -> c
+    void onLeftClick() -> a
+    void onRightClick() -> b
+chan.android.game.memoblock.highscore.HighScoreActivity$HighScoreCursorAdapter -> chan.android.game.memoblock.highscore.c:
     android.view.LayoutInflater inflater -> b
     chan.android.game.memoblock.highscore.HighScoreActivity this$0 -> a
     android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup) -> newView
     void bindView(android.view.View,android.content.Context,android.database.Cursor) -> bindView
-chan.android.game.memoblock.highscore.HighScoreActivity$ViewHolder -> chan.android.game.memoblock.highscore.b:
+chan.android.game.memoblock.highscore.HighScoreActivity$ViewHolder -> chan.android.game.memoblock.highscore.d:
     android.widget.TextView score -> a
     android.widget.TextView date -> b
     android.widget.TextView level -> c
@@ -320,15 +334,16 @@ chan.android.game.memoblock.highscore.HighScoreContentProvider -> chan.android.g
     android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
     int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
     int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
-chan.android.game.memoblock.highscore.HighScoreDataSource -> chan.android.game.memoblock.highscore.c:
+chan.android.game.memoblock.highscore.HighScoreDataSource -> chan.android.game.memoblock.highscore.e:
     void insertNewScore(int,chan.android.game.memoblock.Difficulty) -> a
-chan.android.game.memoblock.highscore.HighScoreDataSourceImpl -> chan.android.game.memoblock.highscore.d:
+chan.android.game.memoblock.highscore.HighScoreDbHelper -> chan.android.game.memoblock.highscore.f:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+chan.android.game.memoblock.highscore.HighScoreDbTable -> chan.android.game.memoblock.highscore.g:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+chan.android.game.memoblock.highscore.HighScoreManager -> chan.android.game.memoblock.highscore.h:
     java.text.SimpleDateFormat DATE_FORMATTER -> a
     android.content.Context appContext -> b
     void insertNewScore(int,chan.android.game.memoblock.Difficulty) -> a
-chan.android.game.memoblock.highscore.HighScoreDbHelper -> chan.android.game.memoblock.highscore.e:
-    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
-    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
-chan.android.game.memoblock.highscore.HighScoreDbTable -> chan.android.game.memoblock.highscore.f:
-    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
-    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+    boolean deleteScore(java.lang.String) -> a

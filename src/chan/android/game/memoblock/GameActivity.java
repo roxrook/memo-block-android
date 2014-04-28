@@ -18,7 +18,7 @@ import chan.android.game.memoblock.generator.OneFourthGenerator;
 import chan.android.game.memoblock.generator.RandomGenerator;
 import chan.android.game.memoblock.highscore.HighScoreActivity;
 import chan.android.game.memoblock.highscore.HighScoreDataSource;
-import chan.android.game.memoblock.highscore.HighScoreDataSourceImpl;
+import chan.android.game.memoblock.highscore.HighScoreManager;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -168,7 +168,7 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
 
         soundManager = new SoundManager(this);
 
-        highScoreDataSource = new HighScoreDataSourceImpl(this);
+        highScoreDataSource = new HighScoreManager(this);
 
         viewFlipper = (ViewFlipper) findViewById(R.id.game_$_viewflipper);
 
@@ -441,7 +441,7 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
         @Override
         public void onTick(long untilFinish) {
             timerCount++;
-            clockTextView.setText(String.format("00:%02d", timerCount));
+            clockTextView.setText("Time: " + String.format("00:%02d", timerCount));
         }
     }
 }

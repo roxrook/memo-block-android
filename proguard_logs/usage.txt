@@ -40,7 +40,8 @@ chan.android.game.memoblock.RoundedRectListView:
 chan.android.game.memoblock.ScoreBoxView:
     38:40:public void resetScore()
 chan.android.game.memoblock.highscore.HighScoreActivity:
-    146:151:public void shareHighScore(int)
+    83:84:private void toast(java.lang.String)
+    184:189:public void shareHighScore(int)
 chan.android.game.memoblock.highscore.HighScoreContentProvider:
     private static final int HIGH_SCORES
     private static final int HIGH_SCORES_ID
@@ -48,6 +49,8 @@ chan.android.game.memoblock.highscore.HighScoreContentProvider:
     private static final java.lang.String BASE_PATH
     public static final java.lang.String CONTENT_TYPE
     public static final java.lang.String CONTENT_ITEM_TYPE
+chan.android.game.memoblock.highscore.HighScoreDataSource:
+    public abstract boolean deleteScore(java.lang.String)
 chan.android.game.memoblock.highscore.HighScoreDbHelper:
     private static final java.lang.String DATABASE_NAME
     private static final int DATABASE_VERSION

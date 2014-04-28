@@ -8,13 +8,13 @@ import chan.android.game.memoblock.Difficulty;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class HighScoreDataSourceImpl implements HighScoreDataSource {
+public class HighScoreManager implements HighScoreDataSource {
 
     private static SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     private Context appContext;
 
-    public HighScoreDataSourceImpl(Context context) {
+    public HighScoreManager(Context context) {
         appContext = context.getApplicationContext();
     }
 
@@ -26,5 +26,11 @@ public class HighScoreDataSourceImpl implements HighScoreDataSource {
         Date now = new Date();
         cv.put(HighScoreDbTable.COLUMN_DATE, DATE_FORMATTER.format(now));
         appContext.getContentResolver().insert(HighScoreContentProvider.CONTENT_URI, cv);
+    }
+
+    @Override
+    public boolean deleteScore(String date) {
+        appContext.getContentResolver().delete(HighScoreContentProvider.CONTENT_URI, "date=?", new String[]{date});
+        return false;
     }
 }

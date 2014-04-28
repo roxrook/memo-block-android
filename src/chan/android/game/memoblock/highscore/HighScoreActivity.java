@@ -12,8 +12,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
+import chan.android.game.memoblock.GameDialog;
 import chan.android.game.memoblock.GameSettings;
 import chan.android.game.memoblock.R;
 import chan.android.game.memoblock.RoundedRectListView;
@@ -29,13 +32,25 @@ public class HighScoreActivity extends Activity implements LoaderManager.LoaderC
 
     private HighScoreCursorAdapter cursorAdapter;
 
+    private HighScoreManager highScoreManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.highscore);
 
+        highScoreManager = new HighScoreManager(this);
+
         // Set up list view
         RoundedRectListView listview = (RoundedRectListView) findViewById(R.id.highscore_$_listview);
+        listview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Cursor cursor = (Cursor) cursorAdapter.getItem(position - 1);
+                confirmDelete(cursor);
+                return true;
+            }
+        });
         View header = getLayoutInflater().inflate(R.layout.highscore_header, null);
         listview.addHeaderView(header);
 
@@ -43,6 +58,29 @@ public class HighScoreActivity extends Activity implements LoaderManager.LoaderC
         getLoaderManager().initLoader(0, null, this);
         cursorAdapter = new HighScoreCursorAdapter(this);
         listview.setAdapter(cursorAdapter);
+    }
+
+    private void confirmDelete(final Cursor cursor) {
+        final String date = cursor.getString(cursor.getColumnIndexOrThrow(HighScoreDbTable.COLUMN_DATE));
+        final String score = cursor.getString(cursor.getColumnIndexOrThrow(HighScoreDbTable.COLUMN_SCORE));
+        final GameDialog d = new GameDialog(this, "Are you sure you want to delete the score '" + score + "' achieved about " + readableTimeStamp(date) + " ?", "Cancel", "Yes");
+        d.setOnGameDialogClickListener(new GameDialog.OnGameDialogClickListener() {
+            @Override
+            public void onLeftClick() {
+                d.dismiss();
+            }
+
+            @Override
+            public void onRightClick() {
+                d.dismiss();
+                highScoreManager.deleteScore(date);
+            }
+        });
+        d.show();
+    }
+
+    private void toast(String msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
     @Override

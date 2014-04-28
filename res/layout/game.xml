@@ -113,9 +113,9 @@
 
                 <TextView
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_below="@id/game_$_scoreboxview_current"
                         android:layout_toRightOf="@id/game_$_textview_title"
+                        android:layout_alignStart="@id/game_$_scoreboxview_current"
                         android:id="@+id/game_$_textview_clock"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

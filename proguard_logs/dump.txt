@@ -514,8 +514,8 @@ Constant Pool (count = 456):
   + Class [chan/android/game/memoblock/f]
   + Class [chan/android/game/memoblock/g]
   + Class [chan/android/game/memoblock/h]
-  + Class [chan/android/game/memoblock/highscore/c]
-  + Class [chan/android/game/memoblock/highscore/d]
+  + Class [chan/android/game/memoblock/highscore/e]
+  + Class [chan/android/game/memoblock/highscore/h]
   + Class [chan/android/game/memoblock/i]
   + Class [chan/android/game/memoblock/j]
   + Class [chan/android/game/memoblock/n]
@@ -547,7 +547,7 @@ Constant Pool (count = 456):
   + Fieldref [chan/android/game/memoblock/GameActivity.o Ljava/util/Random;]
   + Fieldref [chan/android/game/memoblock/GameActivity.p Lchan/android/game/memoblock/y;]
   + Fieldref [chan/android/game/memoblock/GameActivity.q Landroid/os/Vibrator;]
-  + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/c;]
+  + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/e;]
   + Fieldref [chan/android/game/memoblock/GameActivity.s J]
   + Fieldref [chan/android/game/memoblock/GameActivity.t Landroid/view/animation/AnimationSet;]
   + Fieldref [chan/android/game/memoblock/GameActivity.u J]
@@ -615,7 +615,7 @@ Constant Pool (count = 456):
   + Methodref [chan/android/game/memoblock/f.<init> (Lchan/android/game/memoblock/GameActivity;Lchan/android/game/memoblock/j;)V]
   + Methodref [chan/android/game/memoblock/g.<init> (Lchan/android/game/memoblock/GameActivity;)V]
   + Methodref [chan/android/game/memoblock/h.<init> (Lchan/android/game/memoblock/GameActivity;)V]
-  + Methodref [chan/android/game/memoblock/highscore/d.<init> (Landroid/content/Context;)V]
+  + Methodref [chan/android/game/memoblock/highscore/h.<init> (Landroid/content/Context;)V]
   + Methodref [chan/android/game/memoblock/i.<init> (Lchan/android/game/memoblock/GameActivity;)V]
   + Methodref [chan/android/game/memoblock/j.<init> (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
   + Methodref [chan/android/game/memoblock/j.a (Lchan/android/game/memoblock/m;)V]
@@ -648,7 +648,7 @@ Constant Pool (count = 456):
   + Methodref [java/util/Date.<init> ()V]
   + Methodref [java/util/Random.<init> ()V]
   + Methodref [java/util/Random.nextInt (I)I]
-  + InterfaceMethodref [chan/android/game/memoblock/highscore/c.a (ILchan/android/game/memoblock/b;)V]
+  + InterfaceMethodref [chan/android/game/memoblock/highscore/e.a (ILchan/android/game/memoblock/b;)V]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (FFFF)V]
   + NameAndType [<init> (IFIFIFIF)V]
@@ -725,7 +725,7 @@ Constant Pool (count = 456):
   + NameAndType [onResume ()V]
   + NameAndType [p Lchan/android/game/memoblock/y;]
   + NameAndType [q Landroid/os/Vibrator;]
-  + NameAndType [r Lchan/android/game/memoblock/highscore/c;]
+  + NameAndType [r Lchan/android/game/memoblock/highscore/e;]
   + NameAndType [s J]
   + NameAndType [setContentView (I)V]
   + NameAndType [setDisplayedChild (I)V]
@@ -817,7 +817,7 @@ Constant Pool (count = 456):
   + Utf8 [Lchan/android/game/memoblock/PatternView;]
   + Utf8 [Lchan/android/game/memoblock/ScoreBoxView;]
   + Utf8 [Lchan/android/game/memoblock/a/a;]
-  + Utf8 [Lchan/android/game/memoblock/highscore/c;]
+  + Utf8 [Lchan/android/game/memoblock/highscore/e;]
   + Utf8 [Lchan/android/game/memoblock/p;]
   + Utf8 [Lchan/android/game/memoblock/q;]
   + Utf8 [Lchan/android/game/memoblock/y;]
@@ -857,8 +857,8 @@ Constant Pool (count = 456):
   + Utf8 [chan/android/game/memoblock/f]
   + Utf8 [chan/android/game/memoblock/g]
   + Utf8 [chan/android/game/memoblock/h]
-  + Utf8 [chan/android/game/memoblock/highscore/c]
-  + Utf8 [chan/android/game/memoblock/highscore/d]
+  + Utf8 [chan/android/game/memoblock/highscore/e]
+  + Utf8 [chan/android/game/memoblock/highscore/h]
   + Utf8 [chan/android/game/memoblock/i]
   + Utf8 [chan/android/game/memoblock/j]
   + Utf8 [chan/android/game/memoblock/n]
@@ -976,9 +976,9 @@ Fields (count = 24):
   + Field:        q Landroid/os/Vibrator;
     Access flags: 0x2
       = private android.os.Vibrator q
-  + Field:        r Lchan/android/game/memoblock/highscore/c;
+  + Field:        r Lchan/android/game/memoblock/highscore/e;
     Access flags: 0x2
-      = private chan.android.game.memoblock.highscore.c r
+      = private chan.android.game.memoblock.highscore.e r
   + Field:        s J
     Access flags: 0x2
       = private long s
@@ -1066,13 +1066,13 @@ Methods (count = 30):
         + Fieldref [chan/android/game/memoblock/GameActivity.p Lchan/android/game/memoblock/y;]
       [36] aload_0 v0
       [37] new #45
-        + Class [chan/android/game/memoblock/highscore/d]
+        + Class [chan/android/game/memoblock/highscore/h]
       [40] dup
       [41] aload_0 v0
       [42] invokespecial #148
-        + Methodref [chan/android/game/memoblock/highscore/d.<init> (Landroid/content/Context;)V]
+        + Methodref [chan/android/game/memoblock/highscore/h.<init> (Landroid/content/Context;)V]
       [45] putfield #80
-        + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/c;]
+        + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/e;]
       [48] aload_0 v0
       [49] aload_0 v0
       [50] ldc #2
@@ -1752,14 +1752,14 @@ Methods (count = 30):
       [39] ifle +37 (target=76)
       [42] aload_0 v0
       [43] getfield #80
-        + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/c;]
+        + Fieldref [chan/android/game/memoblock/GameActivity.r Lchan/android/game/memoblock/highscore/e;]
       [46] aload_0 v0
       [47] getfield #73
         + Fieldref [chan/android/game/memoblock/GameActivity.k I]
       [50] invokestatic #158
         + Methodref [chan/android/game/memoblock/n.e ()Lchan/android/game/memoblock/b;]
       [53] invokeinterface #181
-        + InterfaceMethodref [chan/android/game/memoblock/highscore/c.a (ILchan/android/game/memoblock/b;)V]
+        + InterfaceMethodref [chan/android/game/memoblock/highscore/e.a (ILchan/android/game/memoblock/b;)V]
       [58] new #55
         + Class [java/util/Date]
       [61] dup
@@ -2603,8 +2603,9 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 81):
+Constant Pool (count = 95):
   + String [00:%02d]
+  + String [Time: ]
   + Class [android/os/CountDownTimer]
   + Class [android/widget/TextView]
   + Class [chan/android/game/memoblock/GameActivity]
@@ -2613,6 +2614,7 @@ Constant Pool (count = 81):
   + Class [java/lang/Long]
   + Class [java/lang/Object]
   + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
   + Long [1000]
   + Long [61000]
   + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
@@ -2629,10 +2631,15 @@ Constant Pool (count = 81):
   + Methodref [chan/android/game/memoblock/PatternView.setTouchable (Z)V]
   + Methodref [java/lang/Long.valueOf (J)Ljava/lang/Long;]
   + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
   + NameAndType [<init> (JJ)V]
   + NameAndType [a (I)V]
   + NameAndType [a (Lchan/android/game/memoblock/GameActivity;J)J]
   + NameAndType [a Lchan/android/game/memoblock/GameActivity;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + NameAndType [d (Lchan/android/game/memoblock/GameActivity;)Lchan/android/game/memoblock/PatternView;]
   + NameAndType [format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
   + NameAndType [h (Lchan/android/game/memoblock/GameActivity;)I]
@@ -2642,7 +2649,9 @@ Constant Pool (count = 81):
   + NameAndType [setShowPattern (Z)V]
   + NameAndType [setText (Ljava/lang/CharSequence;)V]
   + NameAndType [setTouchable (Z)V]
+  + NameAndType [toString ()Ljava/lang/String;]
   + NameAndType [valueOf (J)Ljava/lang/Long;]
+  + Utf8 [()Ljava/lang/String;]
   + Utf8 [()V]
   + Utf8 [(I)V]
   + Utf8 [(J)Ljava/lang/Long;]
@@ -2655,15 +2664,18 @@ Constant Pool (count = 81):
   + Utf8 [(Lchan/android/game/memoblock/GameActivity;)V]
   + Utf8 [(Lchan/android/game/memoblock/GameActivity;J)J]
   + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
   + Utf8 [(Z)V]
   + Utf8 [00:%02d]
   + Utf8 [<init>]
   + Utf8 [Code]
   + Utf8 [Lchan/android/game/memoblock/GameActivity;]
+  + Utf8 [Time: ]
   + Utf8 [a]
   + Utf8 [android/os/CountDownTimer]
   + Utf8 [android/widget/TextView]
+  + Utf8 [append]
   + Utf8 [chan/android/game/memoblock/GameActivity]
   + Utf8 [chan/android/game/memoblock/PatternView]
   + Utf8 [chan/android/game/memoblock/g]
@@ -2675,12 +2687,14 @@ Constant Pool (count = 81):
   + Utf8 [java/lang/Long]
   + Utf8 [java/lang/Object]
   + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
   + Utf8 [k]
   + Utf8 [onFinish]
   + Utf8 [onTick]
   + Utf8 [setShowPattern]
   + Utf8 [setText]
   + Utf8 [setTouchable]
+  + Utf8 [toString]
   + Utf8 [valueOf]
 
 Fields (count = 1):
@@ -2696,14 +2710,14 @@ Methods (count = 3):
     + Code attribute instructions (code length = 16, locals = 2, stack = 5):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] putfield #14
+      [2] putfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
       [5] aload_0 v0
-      [6] ldc2_w #12
+      [6] ldc2_w #14
         + Long [61000]
-      [9] ldc2_w #10
+      [9] ldc2_w #12
         + Long [1000]
-      [12] invokespecial #15
+      [12] invokespecial #17
         + Methodref [android/os/CountDownTimer.<init> (JJ)V]
       [15] return
       Code attribute exceptions (count = 0):
@@ -2714,37 +2728,37 @@ Methods (count = 3):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 46, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #14
+      [1] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
       [4] lconst_0
-      [5] invokestatic #18
+      [5] invokestatic #20
         + Methodref [chan/android/game/memoblock/GameActivity.a (Lchan/android/game/memoblock/GameActivity;J)J]
       [8] pop2
       [9] aload_0 v0
-      [10] getfield #14
+      [10] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [13] invokestatic #19
+      [13] invokestatic #21
         + Methodref [chan/android/game/memoblock/GameActivity.d (Lchan/android/game/memoblock/GameActivity;)Lchan/android/game/memoblock/PatternView;]
       [16] iconst_1
-      [17] invokevirtual #24
+      [17] invokevirtual #26
         + Methodref [chan/android/game/memoblock/PatternView.setShowPattern (Z)V]
       [20] aload_0 v0
-      [21] getfield #14
+      [21] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [24] invokestatic #19
+      [24] invokestatic #21
         + Methodref [chan/android/game/memoblock/GameActivity.d (Lchan/android/game/memoblock/GameActivity;)Lchan/android/game/memoblock/PatternView;]
       [27] iconst_0
-      [28] invokevirtual #25
+      [28] invokevirtual #27
         + Methodref [chan/android/game/memoblock/PatternView.setTouchable (Z)V]
       [31] aload_0 v0
-      [32] getfield #14
+      [32] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
       [35] aload_0 v0
-      [36] getfield #14
+      [36] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [39] invokestatic #20
+      [39] invokestatic #22
         + Methodref [chan/android/game/memoblock/GameActivity.h (Lchan/android/game/memoblock/GameActivity;)I]
-      [42] invokevirtual #17
+      [42] invokevirtual #19
         + Methodref [chan/android/game/memoblock/GameActivity.a (I)V]
       [45] return
       Code attribute exceptions (count = 0):
@@ -2753,38 +2767,51 @@ Methods (count = 3):
     Access flags: 0x1
       = public void onTick(long)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 41, locals = 3, stack = 7):
+    + Code attribute instructions (code length = 59, locals = 3, stack = 8):
       [0] aload_0 v0
-      [1] getfield #14
+      [1] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [4] invokestatic #21
+      [4] invokestatic #23
         + Methodref [chan/android/game/memoblock/GameActivity.i (Lchan/android/game/memoblock/GameActivity;)J]
       [7] pop2
       [8] aload_0 v0
-      [9] getfield #14
+      [9] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [12] invokestatic #23
+      [12] invokestatic #25
         + Methodref [chan/android/game/memoblock/GameActivity.k (Lchan/android/game/memoblock/GameActivity;)Landroid/widget/TextView;]
-      [15] ldc #1
+      [15] new #11
+        + Class [java/lang/StringBuilder]
+      [18] dup
+      [19] invokespecial #30
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [22] ldc #2
+        + String [Time: ]
+      [24] invokevirtual #31
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [27] ldc #1
         + String [00:%02d]
-      [17] iconst_1
-      [18] anewarray #8
+      [29] iconst_1
+      [30] anewarray #9
         + Class [java/lang/Object]
-      [21] dup
-      [22] iconst_0
-      [23] aload_0 v0
-      [24] getfield #14
+      [33] dup
+      [34] iconst_0
+      [35] aload_0 v0
+      [36] getfield #16
         + Fieldref [chan/android/game/memoblock/g.a Lchan/android/game/memoblock/GameActivity;]
-      [27] invokestatic #22
+      [39] invokestatic #24
         + Methodref [chan/android/game/memoblock/GameActivity.j (Lchan/android/game/memoblock/GameActivity;)J]
-      [30] invokestatic #26
+      [42] invokestatic #28
         + Methodref [java/lang/Long.valueOf (J)Ljava/lang/Long;]
-      [33] aastore
-      [34] invokestatic #27
+      [45] aastore
+      [46] invokestatic #29
         + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
-      [37] invokevirtual #16
+      [49] invokevirtual #31
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [52] invokevirtual #32
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [55] invokevirtual #18
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [40] return
+      [58] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
@@ -4404,29 +4431,31 @@ Methods (count = 11):
     Access flags: 0x1
       = public void a(chan.android.game.memoblock.a.a)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 30, locals = 2, stack = 3):
+    + Code attribute instructions (code length = 33, locals = 2, stack = 3):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #15
         + Fieldref [chan/android/game/memoblock/q.d Lchan/android/game/memoblock/a/a;]
       [5] aload_0 v0
-      [6] aload_1 v1
-      [7] aload_0 v0
-      [8] getfield #14
+      [6] aload_0 v0
+      [7] getfield #15
+        + Fieldref [chan/android/game/memoblock/q.d Lchan/android/game/memoblock/a/a;]
+      [10] aload_0 v0
+      [11] getfield #14
         + Fieldref [chan/android/game/memoblock/q.c [[I]
-      [11] invokeinterface #26
+      [14] invokeinterface #26
         + InterfaceMethodref [chan/android/game/memoblock/a/a.a ([[I)I]
-      [16] putfield #16
+      [19] putfield #16
         + Fieldref [chan/android/game/memoblock/q.e I]
-      [19] aload_0 v0
-      [20] aload_0 v0
-      [21] getfield #16
+      [22] aload_0 v0
+      [23] aload_0 v0
+      [24] getfield #16
         + Fieldref [chan/android/game/memoblock/q.e I]
-      [24] iconst_5
-      [25] imul
-      [26] putfield #17
+      [27] iconst_5
+      [28] imul
+      [29] putfield #17
         + Fieldref [chan/android/game/memoblock/q.f I]
-      [29] return
+      [32] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a()I
@@ -9112,14 +9141,19 @@ _____________________________________________________________________
 Interfaces (count = 1):
   + Class [android/app/LoaderManager$LoaderCallbacks]
 
-Constant Pool (count = 173):
+Constant Pool (count = 231):
   + Integer [2130903043]
   + Integer [2130903044]
   + Integer [2131361808]
   + String []
+  + String [ ?]
   + String [ days ago]
   + String [ hours ago]
   + String [ minutes ago]
+  + String [' achieved about ]
+  + String [Are you sure you want to delete the score ']
+  + String [Cancel]
+  + String [Yes]
   + String [_id]
   + String [date]
   + String [just now]
@@ -9137,6 +9171,10 @@ Constant Pool (count = 173):
   + Class [chan/android/game/memoblock/highscore/HighScoreActivity]
   + Class [chan/android/game/memoblock/highscore/HighScoreContentProvider]
   + Class [chan/android/game/memoblock/highscore/a]
+  + Class [chan/android/game/memoblock/highscore/b]
+  + Class [chan/android/game/memoblock/highscore/c]
+  + Class [chan/android/game/memoblock/highscore/h]
+  + Class [chan/android/game/memoblock/j]
   + Class [java/lang/String]
   + Class [java/lang/StringBuilder]
   + Class [java/text/ParseException]
@@ -9144,7 +9182,8 @@ Constant Pool (count = 173):
   + Class [java/util/Date]
   + Class [java/util/concurrent/TimeUnit]
   + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.a Ljava/text/SimpleDateFormat;]
-  + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/a;]
+  + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
+  + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.c Lchan/android/game/memoblock/highscore/h;]
   + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
   + Fieldref [java/util/concurrent/TimeUnit.MILLISECONDS Ljava/util/concurrent/TimeUnit;]
   + Methodref [android/app/Activity.<init> ()V]
@@ -9154,14 +9193,22 @@ Constant Pool (count = 173):
   + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
   + Methodref [chan/android/game/memoblock/RoundedRectListView.addHeaderView (Landroid/view/View;)V]
   + Methodref [chan/android/game/memoblock/RoundedRectListView.setAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [chan/android/game/memoblock/RoundedRectListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Landroid/content/Loader;Landroid/database/Cursor;)V]
+  + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Landroid/database/Cursor;)V]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Ljava/lang/String;)Ljava/lang/String;]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.findViewById (I)Landroid/view/View;]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLoaderManager ()Landroid/app/LoaderManager;]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.setContentView (I)V]
-  + Methodref [chan/android/game/memoblock/highscore/a.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
-  + Methodref [chan/android/game/memoblock/highscore/a.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
+  + Methodref [chan/android/game/memoblock/highscore/a.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;)V]
+  + Methodref [chan/android/game/memoblock/highscore/b.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V]
+  + Methodref [chan/android/game/memoblock/highscore/c.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
+  + Methodref [chan/android/game/memoblock/highscore/c.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
+  + Methodref [chan/android/game/memoblock/highscore/h.<init> (Landroid/content/Context;)V]
+  + Methodref [chan/android/game/memoblock/j.<init> (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [chan/android/game/memoblock/j.a (Lchan/android/game/memoblock/m;)V]
+  + Methodref [chan/android/game/memoblock/j.show ()V]
   + Methodref [java/lang/StringBuilder.<init> ()V]
   + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
@@ -9173,22 +9220,33 @@ Constant Pool (count = 173):
   + Methodref [java/util/concurrent/TimeUnit.toDays (J)J]
   + Methodref [java/util/concurrent/TimeUnit.toHours (J)J]
   + Methodref [java/util/concurrent/TimeUnit.toMinutes (J)J]
+  + InterfaceMethodref [android/database/Cursor.getColumnIndexOrThrow (Ljava/lang/String;)I]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
   + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
   + NameAndType [<init> (Landroid/content/Context;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;)V]
   + NameAndType [<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
+  + NameAndType [<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [MILLISECONDS Ljava/util/concurrent/TimeUnit;]
   + NameAndType [a (Landroid/content/Loader;Landroid/database/Cursor;)V]
+  + NameAndType [a (Landroid/database/Cursor;)V]
+  + NameAndType [a (Lchan/android/game/memoblock/m;)V]
   + NameAndType [a (Ljava/lang/String;)Ljava/lang/String;]
   + NameAndType [a Landroid/net/Uri;]
   + NameAndType [a Ljava/text/SimpleDateFormat;]
   + NameAndType [addHeaderView (Landroid/view/View;)V]
   + NameAndType [append (J)Ljava/lang/StringBuilder;]
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  + NameAndType [b Lchan/android/game/memoblock/highscore/a;]
+  + NameAndType [b Lchan/android/game/memoblock/highscore/c;]
+  + NameAndType [c Lchan/android/game/memoblock/highscore/h;]
   + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getColumnIndexOrThrow (Ljava/lang/String;)I]
   + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
   + NameAndType [getLoaderManager ()Landroid/app/LoaderManager;]
+  + NameAndType [getString (I)Ljava/lang/String;]
   + NameAndType [getTime ()J]
   + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
   + NameAndType [initLoader (ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;]
@@ -9196,50 +9254,70 @@ Constant Pool (count = 173):
   + NameAndType [parse (Ljava/lang/String;)Ljava/util/Date;]
   + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
   + NameAndType [setContentView (I)V]
+  + NameAndType [setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+  + NameAndType [show ()V]
   + NameAndType [swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
   + NameAndType [toDays (J)J]
   + NameAndType [toHours (J)J]
   + NameAndType [toMinutes (J)J]
   + NameAndType [toString ()Ljava/lang/String;]
   + Utf8 []
+  + Utf8 [ ?]
   + Utf8 [ days ago]
   + Utf8 [ hours ago]
   + Utf8 [ minutes ago]
+  + Utf8 [' achieved about ]
   + Utf8 [()J]
   + Utf8 [()Landroid/app/LoaderManager;]
   + Utf8 [()Landroid/view/LayoutInflater;]
   + Utf8 [()Ljava/lang/String;]
   + Utf8 [()V]
   + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
   + Utf8 [(I)V]
   + Utf8 [(ILandroid/os/Bundle;)Landroid/content/Loader;]
   + Utf8 [(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;]
   + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
   + Utf8 [(J)J]
   + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/Context;)V]
   + Utf8 [(Landroid/content/Context;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
   + Utf8 [(Landroid/content/Loader;)V]
   + Utf8 [(Landroid/content/Loader;Landroid/database/Cursor;)V]
   + Utf8 [(Landroid/content/Loader;Ljava/lang/Object;)V]
   + Utf8 [(Landroid/database/Cursor;)Landroid/database/Cursor;]
+  + Utf8 [(Landroid/database/Cursor;)V]
   + Utf8 [(Landroid/os/Bundle;)V]
   + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemLongClickListener;)V]
   + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)V]
   + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V]
   + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Lchan/android/game/memoblock/m;)V]
+  + Utf8 [(Ljava/lang/String;)I]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;)Ljava/util/Date;]
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
+  + Utf8 [Are you sure you want to delete the score ']
+  + Utf8 [Cancel]
   + Utf8 [Code]
   + Utf8 [Landroid/net/Uri;]
-  + Utf8 [Lchan/android/game/memoblock/highscore/a;]
+  + Utf8 [Lchan/android/game/memoblock/highscore/c;]
+  + Utf8 [Lchan/android/game/memoblock/highscore/h;]
   + Utf8 [Ljava/text/SimpleDateFormat;]
   + Utf8 [Ljava/util/concurrent/TimeUnit;]
   + Utf8 [MILLISECONDS]
   + Utf8 [StackMapTable]
+  + Utf8 [Yes]
   + Utf8 [_id]
   + Utf8 [a]
   + Utf8 [addHeaderView]
@@ -9251,14 +9329,21 @@ Constant Pool (count = 173):
   + Utf8 [android/view/LayoutInflater]
   + Utf8 [append]
   + Utf8 [b]
+  + Utf8 [c]
   + Utf8 [chan/android/game/memoblock/RoundedRectListView]
   + Utf8 [chan/android/game/memoblock/highscore/HighScoreActivity]
   + Utf8 [chan/android/game/memoblock/highscore/HighScoreContentProvider]
   + Utf8 [chan/android/game/memoblock/highscore/a]
+  + Utf8 [chan/android/game/memoblock/highscore/b]
+  + Utf8 [chan/android/game/memoblock/highscore/c]
+  + Utf8 [chan/android/game/memoblock/highscore/h]
+  + Utf8 [chan/android/game/memoblock/j]
   + Utf8 [date]
   + Utf8 [findViewById]
+  + Utf8 [getColumnIndexOrThrow]
   + Utf8 [getLayoutInflater]
   + Utf8 [getLoaderManager]
+  + Utf8 [getString]
   + Utf8 [getTime]
   + Utf8 [inflate]
   + Utf8 [initLoader]
@@ -9279,6 +9364,8 @@ Constant Pool (count = 173):
   + Utf8 [score DESC]
   + Utf8 [setAdapter]
   + Utf8 [setContentView]
+  + Utf8 [setOnItemLongClickListener]
+  + Utf8 [show]
   + Utf8 [swapCursor]
   + Utf8 [toDays]
   + Utf8 [toHours]
@@ -9286,22 +9373,25 @@ Constant Pool (count = 173):
   + Utf8 [toString]
   + Utf8 [yyyy-MM-dd HH:mm:ss]
 
-Fields (count = 2):
+Fields (count = 3):
   + Field:        a Ljava/text/SimpleDateFormat;
     Access flags: 0xa
       = private static java.text.SimpleDateFormat a
-  + Field:        b Lchan/android/game/memoblock/highscore/a;
+  + Field:        b Lchan/android/game/memoblock/highscore/c;
     Access flags: 0x2
-      = private chan.android.game.memoblock.highscore.a b
+      = private chan.android.game.memoblock.highscore.c b
+  + Field:        c Lchan/android/game/memoblock/highscore/h;
+    Access flags: 0x2
+      = private chan.android.game.memoblock.highscore.h c
 
-Methods (count = 9):
+Methods (count = 13):
   - Method:       <init>()V
     Access flags: 0x1
       = public HighScoreActivity()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #35
+      [1] invokespecial #45
         + Methodref [android/app/Activity.<init> ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -9310,63 +9400,160 @@ Methods (count = 9):
     Access flags: 0x4
       = protected void onCreate(android.os.Bundle)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 70, locals = 4, stack = 5):
+    + Code attribute instructions (code length = 94, locals = 4, stack = 5):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #36
+      [2] invokespecial #46
         + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] ldc #1
         + Integer [2130903043]
-      [8] invokevirtual #47
+      [8] invokevirtual #59
         + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.setContentView (I)V]
       [11] aload_0 v0
-      [12] ldc #3
+      [12] new #32
+        + Class [chan/android/game/memoblock/highscore/h]
+      [15] dup
+      [16] aload_0 v0
+      [17] invokespecial #64
+        + Methodref [chan/android/game/memoblock/highscore/h.<init> (Landroid/content/Context;)V]
+      [20] putfield #42
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.c Lchan/android/game/memoblock/highscore/h;]
+      [23] aload_0 v0
+      [24] ldc #3
         + Integer [2131361808]
-      [14] invokevirtual #44
+      [26] invokevirtual #56
         + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.findViewById (I)Landroid/view/View;]
-      [17] checkcast #21
+      [29] checkcast #26
         + Class [chan/android/game/memoblock/RoundedRectListView]
-      [20] astore_2 v2
-      [21] aload_0 v0
-      [22] invokevirtual #45
-        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
-      [25] ldc #2
-        + Integer [2130903044]
-      [27] aconst_null
-      [28] invokevirtual #39
-        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
-      [31] astore_3 v3
-      [32] aload_2 v2
-      [33] aload_3 v3
-      [34] invokevirtual #40
-        + Methodref [chan/android/game/memoblock/RoundedRectListView.addHeaderView (Landroid/view/View;)V]
-      [37] aload_0 v0
-      [38] invokevirtual #46
-        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLoaderManager ()Landroid/app/LoaderManager;]
-      [41] iconst_0
-      [42] aconst_null
-      [43] aload_0 v0
-      [44] invokevirtual #37
-        + Methodref [android/app/LoaderManager.initLoader (ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;]
-      [47] pop
-      [48] aload_0 v0
-      [49] new #24
+      [32] astore_2 v2
+      [33] aload_2 v2
+      [34] new #29
         + Class [chan/android/game/memoblock/highscore/a]
-      [52] dup
-      [53] aload_0 v0
-      [54] aload_0 v0
-      [55] invokespecial #48
-        + Methodref [chan/android/game/memoblock/highscore/a.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
-      [58] putfield #32
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/a;]
-      [61] aload_2 v2
-      [62] aload_0 v0
-      [63] getfield #32
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/a;]
-      [66] invokevirtual #41
+      [37] dup
+      [38] aload_0 v0
+      [39] invokespecial #60
+        + Methodref [chan/android/game/memoblock/highscore/a.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;)V]
+      [42] invokevirtual #52
+        + Methodref [chan/android/game/memoblock/RoundedRectListView.setOnItemLongClickListener (Landroid/widget/AdapterView$OnItemLongClickListener;)V]
+      [45] aload_0 v0
+      [46] invokevirtual #57
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+      [49] ldc #2
+        + Integer [2130903044]
+      [51] aconst_null
+      [52] invokevirtual #49
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [55] astore_3 v3
+      [56] aload_2 v2
+      [57] aload_3 v3
+      [58] invokevirtual #50
+        + Methodref [chan/android/game/memoblock/RoundedRectListView.addHeaderView (Landroid/view/View;)V]
+      [61] aload_0 v0
+      [62] invokevirtual #58
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.getLoaderManager ()Landroid/app/LoaderManager;]
+      [65] iconst_0
+      [66] aconst_null
+      [67] aload_0 v0
+      [68] invokevirtual #47
+        + Methodref [android/app/LoaderManager.initLoader (ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;]
+      [71] pop
+      [72] aload_0 v0
+      [73] new #31
+        + Class [chan/android/game/memoblock/highscore/c]
+      [76] dup
+      [77] aload_0 v0
+      [78] aload_0 v0
+      [79] invokespecial #62
+        + Methodref [chan/android/game/memoblock/highscore/c.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V]
+      [82] putfield #41
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
+      [85] aload_2 v2
+      [86] aload_0 v0
+      [87] getfield #41
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
+      [90] invokevirtual #51
         + Methodref [chan/android/game/memoblock/RoundedRectListView.setAdapter (Landroid/widget/ListAdapter;)V]
-      [69] return
+      [93] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/database/Cursor;)V
+    Access flags: 0x2
+      = private void a(android.database.Cursor)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 103, locals = 5, stack = 6):
+      [0] aload_1 v1
+      [1] aload_1 v1
+      [2] ldc #14
+        + String [date]
+      [4] invokeinterface #79
+        + InterfaceMethodref [android/database/Cursor.getColumnIndexOrThrow (Ljava/lang/String;)I]
+      [9] invokeinterface #80
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [14] astore_2 v2
+      [15] aload_1 v1
+      [16] aload_1 v1
+      [17] ldc #17
+        + String [score]
+      [19] invokeinterface #79
+        + InterfaceMethodref [android/database/Cursor.getColumnIndexOrThrow (Ljava/lang/String;)I]
+      [24] invokeinterface #80
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [29] astore_3 v3
+      [30] new #33
+        + Class [chan/android/game/memoblock/j]
+      [33] dup
+      [34] aload_0 v0
+      [35] new #35
+        + Class [java/lang/StringBuilder]
+      [38] dup
+      [39] invokespecial #68
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [42] ldc #10
+        + String [Are you sure you want to delete the score ']
+      [44] invokevirtual #70
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [47] aload_3 v3
+      [48] invokevirtual #70
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [51] ldc #9
+        + String [' achieved about ]
+      [53] invokevirtual #70
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [56] aload_0 v0
+      [57] aload_2 v2
+      [58] invokespecial #55
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Ljava/lang/String;)Ljava/lang/String;]
+      [61] invokevirtual #70
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [64] ldc #5
+        + String [ ?]
+      [66] invokevirtual #70
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [69] invokevirtual #71
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [72] ldc #11
+        + String [Cancel]
+      [74] ldc #12
+        + String [Yes]
+      [76] invokespecial #65
+        + Methodref [chan/android/game/memoblock/j.<init> (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
+      [79] astore v4
+      [81] aload v4
+      [83] new #30
+        + Class [chan/android/game/memoblock/highscore/b]
+      [86] dup
+      [87] aload_0 v0
+      [88] aload v4
+      [90] aload_2 v2
+      [91] invokespecial #61
+        + Methodref [chan/android/game/memoblock/highscore/b.<init> (Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V]
+      [94] invokevirtual #66
+        + Methodref [chan/android/game/memoblock/j.a (Lchan/android/game/memoblock/m;)V]
+      [97] aload v4
+      [99] invokevirtual #67
+        + Methodref [chan/android/game/memoblock/j.show ()V]
+      [102] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;
@@ -9375,41 +9562,41 @@ Methods (count = 9):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 46, locals = 5, stack = 8):
       [0] iconst_4
-      [1] anewarray #25
+      [1] anewarray #34
         + Class [java/lang/String]
       [4] dup
       [5] iconst_0
-      [6] ldc #8
+      [6] ldc #13
         + String [_id]
       [8] aastore
       [9] dup
       [10] iconst_1
-      [11] ldc #12
+      [11] ldc #17
         + String [score]
       [13] aastore
       [14] dup
       [15] iconst_2
-      [16] ldc #11
+      [16] ldc #16
         + String [level]
       [18] aastore
       [19] dup
       [20] iconst_3
-      [21] ldc #9
+      [21] ldc #14
         + String [date]
       [23] aastore
       [24] astore_3 v3
-      [25] new #18
+      [25] new #23
         + Class [android/content/CursorLoader]
       [28] dup
       [29] aload_0 v0
-      [30] getstatic #33
+      [30] getstatic #43
         + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
       [33] aload_3 v3
       [34] aconst_null
       [35] aconst_null
-      [36] ldc #13
+      [36] ldc #18
         + String [score DESC]
-      [38] invokespecial #38
+      [38] invokespecial #48
         + Methodref [android/content/CursorLoader.<init> (Landroid/content/Context;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V]
       [41] astore v4
       [43] aload v4
@@ -9422,11 +9609,11 @@ Methods (count = 9):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 3, stack = 2):
       [0] aload_0 v0
-      [1] getfield #32
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/a;]
+      [1] getfield #41
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
       [4] aload_2 v2
-      [5] invokevirtual #49
-        + Methodref [chan/android/game/memoblock/highscore/a.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
+      [5] invokevirtual #63
+        + Methodref [chan/android/game/memoblock/highscore/c.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
       [8] pop
       [9] return
       Code attribute exceptions (count = 0):
@@ -9437,11 +9624,11 @@ Methods (count = 9):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 2, stack = 2):
       [0] aload_0 v0
-      [1] getfield #32
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/a;]
+      [1] getfield #41
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
       [4] aconst_null
-      [5] invokevirtual #49
-        + Methodref [chan/android/game/memoblock/highscore/a.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
+      [5] invokevirtual #63
+        + Methodref [chan/android/game/memoblock/highscore/c.swapCursor (Landroid/database/Cursor;)Landroid/database/Cursor;]
       [8] pop
       [9] return
       Code attribute exceptions (count = 0):
@@ -9451,102 +9638,102 @@ Methods (count = 9):
       = private java.lang.String a(java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 148, locals = 12, stack = 4):
-      [0] getstatic #31
+      [0] getstatic #40
         + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.a Ljava/text/SimpleDateFormat;]
       [3] aload_1 v1
-      [4] invokevirtual #55
+      [4] invokevirtual #73
         + Methodref [java/text/SimpleDateFormat.parse (Ljava/lang/String;)Ljava/util/Date;]
       [7] astore_2 v2
-      [8] new #29
+      [8] new #38
         + Class [java/util/Date]
       [11] dup
-      [12] invokespecial #56
+      [12] invokespecial #74
         + Methodref [java/util/Date.<init> ()V]
       [15] astore_3 v3
       [16] aload_3 v3
-      [17] invokevirtual #57
+      [17] invokevirtual #75
         + Methodref [java/util/Date.getTime ()J]
       [20] aload_2 v2
-      [21] invokevirtual #57
+      [21] invokevirtual #75
         + Methodref [java/util/Date.getTime ()J]
       [24] lsub
       [25] lstore v4
-      [27] getstatic #34
+      [27] getstatic #44
         + Fieldref [java/util/concurrent/TimeUnit.MILLISECONDS Ljava/util/concurrent/TimeUnit;]
       [30] lload v4
-      [32] invokevirtual #58
+      [32] invokevirtual #76
         + Methodref [java/util/concurrent/TimeUnit.toDays (J)J]
       [35] lstore v6
       [37] lload v6
       [39] lconst_0
       [40] lcmp
       [41] ifle +24 (target=65)
-      [44] new #26
+      [44] new #35
         + Class [java/lang/StringBuilder]
       [47] dup
-      [48] invokespecial #50
+      [48] invokespecial #68
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [51] lload v6
-      [53] invokevirtual #51
+      [53] invokevirtual #69
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
-      [56] ldc #5
+      [56] ldc #6
         + String [ days ago]
-      [58] invokevirtual #52
+      [58] invokevirtual #70
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [61] invokevirtual #53
+      [61] invokevirtual #71
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [64] areturn
-      [65] getstatic #34
+      [65] getstatic #44
         + Fieldref [java/util/concurrent/TimeUnit.MILLISECONDS Ljava/util/concurrent/TimeUnit;]
       [68] lload v4
-      [70] invokevirtual #59
+      [70] invokevirtual #77
         + Methodref [java/util/concurrent/TimeUnit.toHours (J)J]
       [73] lstore v8
       [75] lload v8
       [77] lconst_0
       [78] lcmp
       [79] ifle +24 (target=103)
-      [82] new #26
+      [82] new #35
         + Class [java/lang/StringBuilder]
       [85] dup
-      [86] invokespecial #50
+      [86] invokespecial #68
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [89] lload v8
-      [91] invokevirtual #51
+      [91] invokevirtual #69
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
-      [94] ldc #6
+      [94] ldc #7
         + String [ hours ago]
-      [96] invokevirtual #52
+      [96] invokevirtual #70
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [99] invokevirtual #53
+      [99] invokevirtual #71
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [102] areturn
-      [103] getstatic #34
+      [103] getstatic #44
         + Fieldref [java/util/concurrent/TimeUnit.MILLISECONDS Ljava/util/concurrent/TimeUnit;]
       [106] lload v4
-      [108] invokevirtual #60
+      [108] invokevirtual #78
         + Methodref [java/util/concurrent/TimeUnit.toMinutes (J)J]
       [111] lstore v10
       [113] lload v10
       [115] lconst_0
       [116] lcmp
       [117] ifle +24 (target=141)
-      [120] new #26
+      [120] new #35
         + Class [java/lang/StringBuilder]
       [123] dup
-      [124] invokespecial #50
+      [124] invokespecial #68
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [127] lload v10
-      [129] invokevirtual #51
+      [129] invokevirtual #69
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
-      [132] ldc #7
+      [132] ldc #8
         + String [ minutes ago]
-      [134] invokevirtual #52
+      [134] invokevirtual #70
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [137] invokevirtual #53
+      [137] invokevirtual #71
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [140] areturn
-      [141] ldc #10
+      [141] ldc #15
         + String [just now]
       [143] areturn
       [144] astore_2 v2
@@ -9576,11 +9763,45 @@ Methods (count = 9):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] aload_2 v2
-      [3] checkcast #19
+      [3] checkcast #24
         + Class [android/database/Cursor]
-      [6] invokevirtual #42
+      [6] invokevirtual #53
         + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Landroid/content/Loader;Landroid/database/Cursor;)V]
       [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;
+    Access flags: 0x1008
+      = static synthetic chan.android.game.memoblock.highscore.c a(chan.android.game.memoblock.highscore.HighScoreActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #41
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.b Lchan/android/game/memoblock/highscore/c;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V
+    Access flags: 0x1008
+      = static synthetic void a(chan.android.game.memoblock.highscore.HighScoreActivity,android.database.Cursor)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #54
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Landroid/database/Cursor;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;
+    Access flags: 0x1008
+      = static synthetic chan.android.game.memoblock.highscore.h b(chan.android.game.memoblock.highscore.HighScoreActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #42
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.c Lchan/android/game/memoblock/highscore/h;]
+      [4] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Lchan/android/game/memoblock/highscore/HighScoreActivity;Ljava/lang/String;)Ljava/lang/String;
@@ -9590,7 +9811,7 @@ Methods (count = 9):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #43
+      [2] invokespecial #55
         + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Ljava/lang/String;)Ljava/lang/String;]
       [5] areturn
       Code attribute exceptions (count = 0):
@@ -9600,14 +9821,14 @@ Methods (count = 9):
       = static void <clinit>()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 0, stack = 3):
-      [0] new #28
+      [0] new #37
         + Class [java/text/SimpleDateFormat]
       [3] dup
-      [4] ldc #14
+      [4] ldc #19
         + String [yyyy-MM-dd HH:mm:ss]
-      [6] invokespecial #54
+      [6] invokespecial #72
         + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
-      [9] putstatic #31
+      [9] putstatic #40
         + Fieldref [chan/android/game/memoblock/highscore/HighScoreActivity.a Ljava/text/SimpleDateFormat;]
       [12] return
       Code attribute exceptions (count = 0):
@@ -9617,11 +9838,237 @@ Class file attributes (count = 0):
 
 _____________________________________________________________________
 + Program class: chan/android/game/memoblock/highscore/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class chan.android.game.memoblock.highscore.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+
+Constant Pool (count = 35):
+  + Class [android/database/Cursor]
+  + Class [android/widget/AdapterView$OnItemLongClickListener]
+  + Class [chan/android/game/memoblock/highscore/HighScoreActivity]
+  + Class [chan/android/game/memoblock/highscore/a]
+  + Class [chan/android/game/memoblock/highscore/c]
+  + Class [java/lang/Object]
+  + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;]
+  + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V]
+  + Methodref [chan/android/game/memoblock/highscore/c.getItem (I)Ljava/lang/Object;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;]
+  + NameAndType [a (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V]
+  + NameAndType [a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + NameAndType [getItem (I)Ljava/lang/Object;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)V]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + Utf8 [a]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/widget/AdapterView$OnItemLongClickListener]
+  + Utf8 [chan/android/game/memoblock/highscore/HighScoreActivity]
+  + Utf8 [chan/android/game/memoblock/highscore/a]
+  + Utf8 [chan/android/game/memoblock/highscore/c]
+  + Utf8 [getItem]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onItemLongClick]
+
+Fields (count = 1):
+  + Field:        a Lchan/android/game/memoblock/highscore/HighScoreActivity;
+    Access flags: 0x1010
+      = final synthetic chan.android.game.memoblock.highscore.HighScoreActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lchan/android/game/memoblock/highscore/HighScoreActivity;)V
+    Access flags: 0x0
+      = a(chan.android.game.memoblock.highscore.HighScoreActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #11
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z
+    Access flags: 0x1
+      = public boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 7, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+      [4] invokestatic #8
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/c;]
+      [7] iload_3 v3
+      [8] iconst_1
+      [9] isub
+      [10] invokevirtual #10
+        + Methodref [chan/android/game/memoblock/highscore/c.getItem (I)Ljava/lang/Object;]
+      [13] checkcast #1
+        + Class [android/database/Cursor]
+      [16] astore v6
+      [18] aload_0 v0
+      [19] getfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+      [22] aload v6
+      [24] invokestatic #9
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/database/Cursor;)V]
+      [27] iconst_1
+      [28] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: chan/android/game/memoblock/highscore/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class chan.android.game.memoblock.highscore.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [chan/android/game/memoblock/m]
+
+Constant Pool (count = 40):
+  + Class [chan/android/game/memoblock/highscore/HighScoreActivity]
+  + Class [chan/android/game/memoblock/highscore/b]
+  + Class [chan/android/game/memoblock/highscore/h]
+  + Class [chan/android/game/memoblock/j]
+  + Class [chan/android/game/memoblock/m]
+  + Class [java/lang/Object]
+  + Fieldref [chan/android/game/memoblock/highscore/b.a Lchan/android/game/memoblock/j;]
+  + Fieldref [chan/android/game/memoblock/highscore/b.b Ljava/lang/String;]
+  + Fieldref [chan/android/game/memoblock/highscore/b.c Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.b (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;]
+  + Methodref [chan/android/game/memoblock/highscore/h.a (Ljava/lang/String;)Z]
+  + Methodref [chan/android/game/memoblock/j.dismiss ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Ljava/lang/String;)Z]
+  + NameAndType [a Lchan/android/game/memoblock/j;]
+  + NameAndType [b (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + NameAndType [dismiss ()V]
+  + Utf8 [()V]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;]
+  + Utf8 [(Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + Utf8 [Lchan/android/game/memoblock/j;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [chan/android/game/memoblock/highscore/HighScoreActivity]
+  + Utf8 [chan/android/game/memoblock/highscore/b]
+  + Utf8 [chan/android/game/memoblock/highscore/h]
+  + Utf8 [chan/android/game/memoblock/j]
+  + Utf8 [chan/android/game/memoblock/m]
+  + Utf8 [dismiss]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 3):
+  + Field:        a Lchan/android/game/memoblock/j;
+    Access flags: 0x1010
+      = final synthetic chan.android.game.memoblock.j a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x1010
+      = final synthetic java.lang.String b
+  + Field:        c Lchan/android/game/memoblock/highscore/HighScoreActivity;
+    Access flags: 0x1010
+      = final synthetic chan.android.game.memoblock.highscore.HighScoreActivity c
+
+Methods (count = 3):
+  - Method:       <init>(Lchan/android/game/memoblock/highscore/HighScoreActivity;Lchan/android/game/memoblock/j;Ljava/lang/String;)V
+    Access flags: 0x0
+      = b(chan.android.game.memoblock.highscore.HighScoreActivity,chan.android.game.memoblock.j,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [chan/android/game/memoblock/highscore/b.c Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/b.a Lchan/android/game/memoblock/j;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #8
+        + Fieldref [chan/android/game/memoblock/highscore/b.b Ljava/lang/String;]
+      [15] aload_0 v0
+      [16] invokespecial #13
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/b.a Lchan/android/game/memoblock/j;]
+      [4] invokevirtual #12
+        + Methodref [chan/android/game/memoblock/j.dismiss ()V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [chan/android/game/memoblock/highscore/b.a Lchan/android/game/memoblock/j;]
+      [4] invokevirtual #12
+        + Methodref [chan/android/game/memoblock/j.dismiss ()V]
+      [7] aload_0 v0
+      [8] getfield #9
+        + Fieldref [chan/android/game/memoblock/highscore/b.c Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+      [11] invokestatic #10
+        + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.b (Lchan/android/game/memoblock/highscore/HighScoreActivity;)Lchan/android/game/memoblock/highscore/h;]
+      [14] aload_0 v0
+      [15] getfield #8
+        + Fieldref [chan/android/game/memoblock/highscore/b.b Ljava/lang/String;]
+      [18] invokevirtual #11
+        + Methodref [chan/android/game/memoblock/highscore/h.a (Ljava/lang/String;)Z]
+      [21] pop
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: chan/android/game/memoblock/highscore/c
   Superclass:    android/widget/CursorAdapter
   Major version: 0x32
   Minor version: 0x0
   Access flags:  0x20
-    = class chan.android.game.memoblock.highscore.a extends android.widget.CursorAdapter
+    = class chan.android.game.memoblock.highscore.c extends android.widget.CursorAdapter
 
 Interfaces (count = 0):
 
@@ -9637,16 +10084,16 @@ Constant Pool (count = 110):
   + Class [android/widget/CursorAdapter]
   + Class [android/widget/TextView]
   + Class [chan/android/game/memoblock/highscore/HighScoreActivity]
-  + Class [chan/android/game/memoblock/highscore/a]
-  + Class [chan/android/game/memoblock/highscore/b]
+  + Class [chan/android/game/memoblock/highscore/c]
+  + Class [chan/android/game/memoblock/highscore/d]
   + Class [chan/android/game/memoblock/n]
   + Class [java/lang/Integer]
   + Class [java/lang/String]
-  + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
-  + Fieldref [chan/android/game/memoblock/highscore/a.b Landroid/view/LayoutInflater;]
-  + Fieldref [chan/android/game/memoblock/highscore/b.a Landroid/widget/TextView;]
-  + Fieldref [chan/android/game/memoblock/highscore/b.b Landroid/widget/TextView;]
-  + Fieldref [chan/android/game/memoblock/highscore/b.c Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/c.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+  + Fieldref [chan/android/game/memoblock/highscore/c.b Landroid/view/LayoutInflater;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.a Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.c Landroid/widget/TextView;]
   + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
   + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
   + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
@@ -9655,7 +10102,7 @@ Constant Pool (count = 110):
   + Methodref [android/widget/CursorAdapter.<init> (Landroid/content/Context;Landroid/database/Cursor;Z)V]
   + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;Ljava/lang/String;)Ljava/lang/String;]
-  + Methodref [chan/android/game/memoblock/highscore/b.<init> (Landroid/view/View;)V]
+  + Methodref [chan/android/game/memoblock/highscore/d.<init> (Landroid/view/View;)V]
   + Methodref [chan/android/game/memoblock/n.a ()Ljava/lang/String;]
   + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
   + Methodref [java/lang/String.compareTo (Ljava/lang/String;)I]
@@ -9715,8 +10162,8 @@ Constant Pool (count = 110):
   + Utf8 [bindView]
   + Utf8 [c]
   + Utf8 [chan/android/game/memoblock/highscore/HighScoreActivity]
-  + Utf8 [chan/android/game/memoblock/highscore/a]
-  + Utf8 [chan/android/game/memoblock/highscore/b]
+  + Utf8 [chan/android/game/memoblock/highscore/c]
+  + Utf8 [chan/android/game/memoblock/highscore/d]
   + Utf8 [chan/android/game/memoblock/n]
   + Utf8 [compareTo]
   + Utf8 [date]
@@ -9747,13 +10194,13 @@ Fields (count = 2):
 Methods (count = 3):
   - Method:       <init>(Lchan/android/game/memoblock/highscore/HighScoreActivity;Landroid/content/Context;)V
     Access flags: 0x1
-      = public a(chan.android.game.memoblock.highscore.HighScoreActivity,android.content.Context)
+      = public c(chan.android.game.memoblock.highscore.HighScoreActivity,android.content.Context)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 21, locals = 3, stack = 4):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #17
-        + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+        + Fieldref [chan/android/game/memoblock/highscore/c.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
       [5] aload_0 v0
       [6] aload_2 v2
       [7] aconst_null
@@ -9765,7 +10212,7 @@ Methods (count = 3):
       [14] invokestatic #22
         + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
       [17] putfield #18
-        + Fieldref [chan/android/game/memoblock/highscore/a.b Landroid/view/LayoutInflater;]
+        + Fieldref [chan/android/game/memoblock/highscore/c.b Landroid/view/LayoutInflater;]
       [20] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -9776,7 +10223,7 @@ Methods (count = 3):
     + Code attribute instructions (code length = 34, locals = 6, stack = 4):
       [0] aload_0 v0
       [1] getfield #18
-        + Fieldref [chan/android/game/memoblock/highscore/a.b Landroid/view/LayoutInflater;]
+        + Fieldref [chan/android/game/memoblock/highscore/c.b Landroid/view/LayoutInflater;]
       [4] ldc #1
         + Integer [2130903045]
       [6] aload_3 v3
@@ -9785,11 +10232,11 @@ Methods (count = 3):
         + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
       [11] astore v4
       [13] new #13
-        + Class [chan/android/game/memoblock/highscore/b]
+        + Class [chan/android/game/memoblock/highscore/d]
       [16] dup
       [17] aload v4
       [19] invokespecial #30
-        + Methodref [chan/android/game/memoblock/highscore/b.<init> (Landroid/view/View;)V]
+        + Methodref [chan/android/game/memoblock/highscore/d.<init> (Landroid/view/View;)V]
       [22] astore v5
       [24] aload v4
       [26] aload v5
@@ -9808,7 +10255,7 @@ Methods (count = 3):
       [1] invokevirtual #24
         + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
       [4] checkcast #13
-        + Class [chan/android/game/memoblock/highscore/b]
+        + Class [chan/android/game/memoblock/highscore/d]
       [7] astore v4
       [9] aload_3 v3
       [10] aload_3 v3
@@ -9858,13 +10305,13 @@ Methods (count = 3):
         + Methodref [android/view/View.setBackgroundColor (I)V]
       [92] aload v4
       [94] getfield #21
-        + Fieldref [chan/android/game/memoblock/highscore/b.c Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.c Landroid/widget/TextView;]
       [97] aload v7
       [99] invokevirtual #28
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [102] aload v4
       [104] getfield #19
-        + Fieldref [chan/android/game/memoblock/highscore/b.a Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.a Landroid/widget/TextView;]
       [107] iload v5
       [109] invokestatic #32
         + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
@@ -9872,10 +10319,10 @@ Methods (count = 3):
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [115] aload v4
       [117] getfield #20
-        + Fieldref [chan/android/game/memoblock/highscore/b.b Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/widget/TextView;]
       [120] aload_0 v0
       [121] getfield #17
-        + Fieldref [chan/android/game/memoblock/highscore/a.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
+        + Fieldref [chan/android/game/memoblock/highscore/c.a Lchan/android/game/memoblock/highscore/HighScoreActivity;]
       [124] aload v6
       [126] invokestatic #29
         + Methodref [chan/android/game/memoblock/highscore/HighScoreActivity.a (Lchan/android/game/memoblock/highscore/HighScoreActivity;Ljava/lang/String;)Ljava/lang/String;]
@@ -9885,18 +10332,18 @@ Methods (count = 3):
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 2):
-        - [87] Var: [a:chan/android/game/memoblock/highscore/a][a:android/view/View][a:android/content/Context][a:android/database/Cursor][a:chan/android/game/memoblock/highscore/b][i][a:java/lang/String][a:java/lang/String][a:java/lang/String], Stack: 
+        - [87] Var: [a:chan/android/game/memoblock/highscore/c][a:android/view/View][a:android/content/Context][a:android/database/Cursor][a:chan/android/game/memoblock/highscore/d][i][a:java/lang/String][a:java/lang/String][a:java/lang/String], Stack: 
         - [92] Var: ..., Stack: (empty)
 
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: chan/android/game/memoblock/highscore/b
++ Program class: chan/android/game/memoblock/highscore/d
   Superclass:    java/lang/Object
   Major version: 0x32
   Minor version: 0x0
   Access flags:  0x20
-    = class chan.android.game.memoblock.highscore.b extends java.lang.Object
+    = class chan.android.game.memoblock.highscore.d extends java.lang.Object
 
 Interfaces (count = 0):
 
@@ -9906,11 +10353,11 @@ Constant Pool (count = 32):
   + Integer [2131361811]
   + Class [android/view/View]
   + Class [android/widget/TextView]
-  + Class [chan/android/game/memoblock/highscore/b]
+  + Class [chan/android/game/memoblock/highscore/d]
   + Class [java/lang/Object]
-  + Fieldref [chan/android/game/memoblock/highscore/b.a Landroid/widget/TextView;]
-  + Fieldref [chan/android/game/memoblock/highscore/b.b Landroid/widget/TextView;]
-  + Fieldref [chan/android/game/memoblock/highscore/b.c Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.a Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/widget/TextView;]
+  + Fieldref [chan/android/game/memoblock/highscore/d.c Landroid/widget/TextView;]
   + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
   + Methodref [java/lang/Object.<init> ()V]
   + NameAndType [<init> ()V]
@@ -9929,7 +10376,7 @@ Constant Pool (count = 32):
   + Utf8 [android/widget/TextView]
   + Utf8 [b]
   + Utf8 [c]
-  + Utf8 [chan/android/game/memoblock/highscore/b]
+  + Utf8 [chan/android/game/memoblock/highscore/d]
   + Utf8 [findViewById]
   + Utf8 [java/lang/Object]
 
@@ -9947,7 +10394,7 @@ Fields (count = 3):
 Methods (count = 1):
   - Method:       <init>(Landroid/view/View;)V
     Access flags: 0x1
-      = public b(android.view.View)
+      = public d(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 44, locals = 2, stack = 3):
       [0] aload_0 v0
@@ -9962,7 +10409,7 @@ Methods (count = 1):
       [11] checkcast #5
         + Class [android/widget/TextView]
       [14] putfield #8
-        + Fieldref [chan/android/game/memoblock/highscore/b.a Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.a Landroid/widget/TextView;]
       [17] aload_0 v0
       [18] aload_1 v1
       [19] ldc #3
@@ -9972,7 +10419,7 @@ Methods (count = 1):
       [24] checkcast #5
         + Class [android/widget/TextView]
       [27] putfield #9
-        + Fieldref [chan/android/game/memoblock/highscore/b.b Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/widget/TextView;]
       [30] aload_0 v0
       [31] aload_1 v1
       [32] ldc #1
@@ -9982,7 +10429,7 @@ Methods (count = 1):
       [37] checkcast #5
         + Class [android/widget/TextView]
       [40] putfield #10
-        + Fieldref [chan/android/game/memoblock/highscore/b.c Landroid/widget/TextView;]
+        + Fieldref [chan/android/game/memoblock/highscore/d.c Landroid/widget/TextView;]
       [43] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -10024,7 +10471,7 @@ Constant Pool (count = 193):
   + Class [android/net/Uri]
   + Class [android/text/TextUtils]
   + Class [chan/android/game/memoblock/highscore/HighScoreContentProvider]
-  + Class [chan/android/game/memoblock/highscore/e]
+  + Class [chan/android/game/memoblock/highscore/f]
   + Class [java/lang/IllegalArgumentException]
   + Class [java/lang/String]
   + Class [java/lang/StringBuilder]
@@ -10033,7 +10480,7 @@ Constant Pool (count = 193):
   + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
   + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.b [Ljava/lang/String;]
   + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.c Landroid/content/UriMatcher;]
-  + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+  + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
   + Methodref [android/content/ContentProvider.<init> ()V]
   + Methodref [android/content/ContentResolver.notifyChange (Landroid/net/Uri;Landroid/database/ContentObserver;)V]
   + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
@@ -10052,8 +10499,8 @@ Constant Pool (count = 193):
   + Methodref [android/text/TextUtils.isEmpty (Ljava/lang/CharSequence;)Z]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a ([Ljava/lang/String;)V]
   + Methodref [chan/android/game/memoblock/highscore/HighScoreContentProvider.getContext ()Landroid/content/Context;]
-  + Methodref [chan/android/game/memoblock/highscore/e.<init> (Landroid/content/Context;)V]
-  + Methodref [chan/android/game/memoblock/highscore/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + Methodref [chan/android/game/memoblock/highscore/f.<init> (Landroid/content/Context;)V]
+  + Methodref [chan/android/game/memoblock/highscore/f.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
   + Methodref [java/lang/IllegalArgumentException.<init> (Ljava/lang/String;)V]
   + Methodref [java/lang/StringBuilder.<init> ()V]
   + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
@@ -10080,7 +10527,7 @@ Constant Pool (count = 193):
   + NameAndType [b [Ljava/lang/String;]
   + NameAndType [c Landroid/content/UriMatcher;]
   + NameAndType [containsAll (Ljava/util/Collection;)Z]
-  + NameAndType [d Lchan/android/game/memoblock/highscore/e;]
+  + NameAndType [d Lchan/android/game/memoblock/highscore/f;]
   + NameAndType [delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
   + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
   + NameAndType [getContext ()Landroid/content/Context;]
@@ -10134,7 +10581,7 @@ Constant Pool (count = 193):
   + Utf8 [Code]
   + Utf8 [Landroid/content/UriMatcher;]
   + Utf8 [Landroid/net/Uri;]
-  + Utf8 [Lchan/android/game/memoblock/highscore/e;]
+  + Utf8 [Lchan/android/game/memoblock/highscore/f;]
   + Utf8 [StackMapTable]
   + Utf8 [Unknown URI: ]
   + Utf8 [Unknown columns in projection]
@@ -10159,7 +10606,7 @@ Constant Pool (count = 193):
   + Utf8 [c]
   + Utf8 [chan.android.game.memoblock]
   + Utf8 [chan/android/game/memoblock/highscore/HighScoreContentProvider]
-  + Utf8 [chan/android/game/memoblock/highscore/e]
+  + Utf8 [chan/android/game/memoblock/highscore/f]
   + Utf8 [containsAll]
   + Utf8 [content://chan.android.game.memoblock/highscores]
   + Utf8 [d]
@@ -10200,9 +10647,9 @@ Fields (count = 4):
   + Field:        c Landroid/content/UriMatcher;
     Access flags: 0x1a
       = private static final android.content.UriMatcher c
-  + Field:        d Lchan/android/game/memoblock/highscore/e;
+  + Field:        d Lchan/android/game/memoblock/highscore/f;
     Access flags: 0x2
-      = private chan.android.game.memoblock.highscore.e d
+      = private chan.android.game.memoblock.highscore.f d
   + Field:        b [Ljava/lang/String;
     Access flags: 0x18
       = static final java.lang.String[] b
@@ -10270,15 +10717,15 @@ Methods (count = 9):
     + Code attribute instructions (code length = 17, locals = 1, stack = 4):
       [0] aload_0 v0
       [1] new #25
-        + Class [chan/android/game/memoblock/highscore/e]
+        + Class [chan/android/game/memoblock/highscore/f]
       [4] dup
       [5] aload_0 v0
       [6] invokevirtual #52
         + Methodref [chan/android/game/memoblock/highscore/HighScoreContentProvider.getContext ()Landroid/content/Context;]
       [9] invokespecial #53
-        + Methodref [chan/android/game/memoblock/highscore/e.<init> (Landroid/content/Context;)V]
+        + Methodref [chan/android/game/memoblock/highscore/f.<init> (Landroid/content/Context;)V]
       [12] putfield #34
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
       [15] iconst_1
       [16] ireturn
       Code attribute exceptions (count = 0):
@@ -10357,9 +10804,9 @@ Methods (count = 9):
       [119] athrow
       [120] aload_0 v0
       [121] getfield #34
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
       [124] invokevirtual #54
-        + Methodref [chan/android/game/memoblock/highscore/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+        + Methodref [chan/android/game/memoblock/highscore/f.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [127] astore v8
       [129] aload v6
       [131] aload v8
@@ -10412,9 +10859,9 @@ Methods (count = 9):
       [7] istore_3 v3
       [8] aload_0 v0
       [9] getfield #34
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
       [12] invokevirtual #54
-        + Methodref [chan/android/game/memoblock/highscore/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+        + Methodref [chan/android/game/memoblock/highscore/f.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [15] astore v4
       [17] iload_3 v3
       [18] lookupswitch (1 offsets, default=32) (target=50)
@@ -10494,9 +10941,9 @@ Methods (count = 9):
       [7] istore v4
       [9] aload_0 v0
       [10] getfield #34
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
       [13] invokevirtual #54
-        + Methodref [chan/android/game/memoblock/highscore/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+        + Methodref [chan/android/game/memoblock/highscore/f.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [16] astore v5
       [18] iload v4
       [20] lookupswitch (2 offsets, default=130) (target=150)
@@ -10623,9 +11070,9 @@ Methods (count = 9):
       [7] istore v5
       [9] aload_0 v0
       [10] getfield #34
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/e;]
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.d Lchan/android/game/memoblock/highscore/f;]
       [13] invokevirtual #54
-        + Methodref [chan/android/game/memoblock/highscore/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+        + Methodref [chan/android/game/memoblock/highscore/f.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [16] astore v6
       [18] iload v5
       [20] lookupswitch (2 offsets, default=135) (target=155)
@@ -10811,21 +11258,21 @@ Methods (count = 9):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: chan/android/game/memoblock/highscore/c
++ Program class: chan/android/game/memoblock/highscore/e
   Superclass:    java/lang/Object
   Major version: 0x32
   Minor version: 0x0
   Access flags:  0x601
-    = public interface chan.android.game.memoblock.highscore.c extends java.lang.Object
+    = public interface chan.android.game.memoblock.highscore.e extends java.lang.Object
 
 Interfaces (count = 0):
 
 Constant Pool (count = 7):
-  + Class [chan/android/game/memoblock/highscore/c]
+  + Class [chan/android/game/memoblock/highscore/e]
   + Class [java/lang/Object]
   + Utf8 [(ILchan/android/game/memoblock/b;)V]
   + Utf8 [a]
-  + Utf8 [chan/android/game/memoblock/highscore/c]
+  + Utf8 [chan/android/game/memoblock/highscore/e]
   + Utf8 [java/lang/Object]
 
 Fields (count = 0):
@@ -10838,224 +11285,23 @@ Methods (count = 1):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: chan/android/game/memoblock/highscore/d
-  Superclass:    java/lang/Object
-  Major version: 0x32
-  Minor version: 0x0
-  Access flags:  0x21
-    = public class chan.android.game.memoblock.highscore.d extends java.lang.Object
-
-Interfaces (count = 1):
-  + Class [chan/android/game/memoblock/highscore/c]
-
-Constant Pool (count = 86):
-  + String [date]
-  + String [level]
-  + String [score]
-  + String [yyyy-MM-dd HH:mm:ss]
-  + Class [android/content/ContentResolver]
-  + Class [android/content/ContentValues]
-  + Class [android/content/Context]
-  + Class [chan/android/game/memoblock/b]
-  + Class [chan/android/game/memoblock/highscore/HighScoreContentProvider]
-  + Class [chan/android/game/memoblock/highscore/c]
-  + Class [chan/android/game/memoblock/highscore/d]
-  + Class [java/lang/Integer]
-  + Class [java/lang/Object]
-  + Class [java/text/SimpleDateFormat]
-  + Class [java/util/Date]
-  + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
-  + Fieldref [chan/android/game/memoblock/highscore/d.a Ljava/text/SimpleDateFormat;]
-  + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/content/Context;]
-  + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
-  + Methodref [android/content/ContentValues.<init> ()V]
-  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/Integer;)V]
-  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-  + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
-  + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
-  + Methodref [chan/android/game/memoblock/b.toString ()Ljava/lang/String;]
-  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
-  + Methodref [java/lang/Object.<init> ()V]
-  + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
-  + Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
-  + Methodref [java/util/Date.<init> ()V]
-  + NameAndType [<init> ()V]
-  + NameAndType [<init> (Ljava/lang/String;)V]
-  + NameAndType [a Landroid/net/Uri;]
-  + NameAndType [a Ljava/text/SimpleDateFormat;]
-  + NameAndType [b Landroid/content/Context;]
-  + NameAndType [format (Ljava/util/Date;)Ljava/lang/String;]
-  + NameAndType [getApplicationContext ()Landroid/content/Context;]
-  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
-  + NameAndType [insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
-  + NameAndType [put (Ljava/lang/String;Ljava/lang/Integer;)V]
-  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
-  + NameAndType [toString ()Ljava/lang/String;]
-  + NameAndType [valueOf (I)Ljava/lang/Integer;]
-  + Utf8 [()Landroid/content/ContentResolver;]
-  + Utf8 [()Landroid/content/Context;]
-  + Utf8 [()Ljava/lang/String;]
-  + Utf8 [()V]
-  + Utf8 [(I)Ljava/lang/Integer;]
-  + Utf8 [(ILchan/android/game/memoblock/b;)V]
-  + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
-  + Utf8 [(Ljava/lang/String;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/Integer;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
-  + Utf8 [(Ljava/util/Date;)Ljava/lang/String;]
-  + Utf8 [<clinit>]
-  + Utf8 [<init>]
-  + Utf8 [Code]
-  + Utf8 [Landroid/content/Context;]
-  + Utf8 [Landroid/net/Uri;]
-  + Utf8 [Ljava/text/SimpleDateFormat;]
-  + Utf8 [a]
-  + Utf8 [android/content/ContentResolver]
-  + Utf8 [android/content/ContentValues]
-  + Utf8 [android/content/Context]
-  + Utf8 [b]
-  + Utf8 [chan/android/game/memoblock/b]
-  + Utf8 [chan/android/game/memoblock/highscore/HighScoreContentProvider]
-  + Utf8 [chan/android/game/memoblock/highscore/c]
-  + Utf8 [chan/android/game/memoblock/highscore/d]
-  + Utf8 [date]
-  + Utf8 [format]
-  + Utf8 [getApplicationContext]
-  + Utf8 [getContentResolver]
-  + Utf8 [insert]
-  + Utf8 [java/lang/Integer]
-  + Utf8 [java/lang/Object]
-  + Utf8 [java/text/SimpleDateFormat]
-  + Utf8 [java/util/Date]
-  + Utf8 [level]
-  + Utf8 [put]
-  + Utf8 [score]
-  + Utf8 [toString]
-  + Utf8 [valueOf]
-  + Utf8 [yyyy-MM-dd HH:mm:ss]
-
-Fields (count = 2):
-  + Field:        a Ljava/text/SimpleDateFormat;
-    Access flags: 0xa
-      = private static java.text.SimpleDateFormat a
-  + Field:        b Landroid/content/Context;
-    Access flags: 0x2
-      = private android.content.Context b
-
-Methods (count = 3):
-  - Method:       <init>(Landroid/content/Context;)V
-    Access flags: 0x1
-      = public d(android.content.Context)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 13, locals = 2, stack = 2):
-      [0] aload_0 v0
-      [1] invokespecial #27
-        + Methodref [java/lang/Object.<init> ()V]
-      [4] aload_0 v0
-      [5] aload_1 v1
-      [6] invokevirtual #23
-        + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
-      [9] putfield #18
-        + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/content/Context;]
-      [12] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a(ILchan/android/game/memoblock/b;)V
-    Access flags: 0x1
-      = public void a(int,chan.android.game.memoblock.b)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 67, locals = 5, stack = 4):
-      [0] new #6
-        + Class [android/content/ContentValues]
-      [3] dup
-      [4] invokespecial #20
-        + Methodref [android/content/ContentValues.<init> ()V]
-      [7] astore_3 v3
-      [8] aload_3 v3
-      [9] ldc #3
-        + String [score]
-      [11] iload_1 v1
-      [12] invokestatic #26
-        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
-      [15] invokevirtual #21
-        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/Integer;)V]
-      [18] aload_3 v3
-      [19] ldc #2
-        + String [level]
-      [21] aload_2 v2
-      [22] invokevirtual #25
-        + Methodref [chan/android/game/memoblock/b.toString ()Ljava/lang/String;]
-      [25] invokevirtual #22
-        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-      [28] new #15
-        + Class [java/util/Date]
-      [31] dup
-      [32] invokespecial #30
-        + Methodref [java/util/Date.<init> ()V]
-      [35] astore v4
-      [37] aload_3 v3
-      [38] ldc #1
-        + String [date]
-      [40] getstatic #17
-        + Fieldref [chan/android/game/memoblock/highscore/d.a Ljava/text/SimpleDateFormat;]
-      [43] aload v4
-      [45] invokevirtual #29
-        + Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
-      [48] invokevirtual #22
-        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-      [51] aload_0 v0
-      [52] getfield #18
-        + Fieldref [chan/android/game/memoblock/highscore/d.b Landroid/content/Context;]
-      [55] invokevirtual #24
-        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
-      [58] getstatic #16
-        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
-      [61] aload_3 v3
-      [62] invokevirtual #19
-        + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
-      [65] pop
-      [66] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  - Method:       <clinit>()V
-    Access flags: 0x8
-      = static void <clinit>()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 13, locals = 0, stack = 3):
-      [0] new #14
-        + Class [java/text/SimpleDateFormat]
-      [3] dup
-      [4] ldc #4
-        + String [yyyy-MM-dd HH:mm:ss]
-      [6] invokespecial #28
-        + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
-      [9] putstatic #17
-        + Fieldref [chan/android/game/memoblock/highscore/d.a Ljava/text/SimpleDateFormat;]
-      [12] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-
-Class file attributes (count = 0):
-
-_____________________________________________________________________
-+ Program class: chan/android/game/memoblock/highscore/e
++ Program class: chan/android/game/memoblock/highscore/f
   Superclass:    android/database/sqlite/SQLiteOpenHelper
   Major version: 0x32
   Minor version: 0x0
   Access flags:  0x20
-    = class chan.android.game.memoblock.highscore.e extends android.database.sqlite.SQLiteOpenHelper
+    = class chan.android.game.memoblock.highscore.f extends android.database.sqlite.SQLiteOpenHelper
 
 Interfaces (count = 0):
 
 Constant Pool (count = 24):
   + String [memo_highscore.db]
   + Class [android/database/sqlite/SQLiteOpenHelper]
-  + Class [chan/android/game/memoblock/highscore/e]
   + Class [chan/android/game/memoblock/highscore/f]
+  + Class [chan/android/game/memoblock/highscore/g]
   + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
-  + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;)V]
-  + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;II)V]
+  + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;II)V]
   + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
   + NameAndType [a (Landroid/database/sqlite/SQLiteDatabase;)V]
   + NameAndType [a (Landroid/database/sqlite/SQLiteDatabase;II)V]
@@ -11067,8 +11313,8 @@ Constant Pool (count = 24):
   + Utf8 [Code]
   + Utf8 [a]
   + Utf8 [android/database/sqlite/SQLiteOpenHelper]
-  + Utf8 [chan/android/game/memoblock/highscore/e]
   + Utf8 [chan/android/game/memoblock/highscore/f]
+  + Utf8 [chan/android/game/memoblock/highscore/g]
   + Utf8 [memo_highscore.db]
   + Utf8 [onCreate]
   + Utf8 [onUpgrade]
@@ -11078,7 +11324,7 @@ Fields (count = 0):
 Methods (count = 3):
   - Method:       <init>(Landroid/content/Context;)V
     Access flags: 0x1
-      = public e(android.content.Context)
+      = public f(android.content.Context)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 2, stack = 5):
       [0] aload_0 v0
@@ -11099,7 +11345,7 @@ Methods (count = 3):
     + Code attribute instructions (code length = 5, locals = 2, stack = 1):
       [0] aload_1 v1
       [1] invokestatic #6
-        + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+        + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;)V]
       [4] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -11112,7 +11358,7 @@ Methods (count = 3):
       [1] iload_2 v2
       [2] iload_3 v3
       [3] invokestatic #7
-        + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;II)V]
+        + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;II)V]
       [6] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -11120,12 +11366,12 @@ Methods (count = 3):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: chan/android/game/memoblock/highscore/f
++ Program class: chan/android/game/memoblock/highscore/g
   Superclass:    java/lang/Object
   Major version: 0x32
   Minor version: 0x0
   Access flags:  0x20
-    = class chan.android.game.memoblock.highscore.f extends java.lang.Object
+    = class chan.android.game.memoblock.highscore.g extends java.lang.Object
 
 Interfaces (count = 0):
 
@@ -11133,10 +11379,10 @@ Constant Pool (count = 21):
   + String [create table memo_highscore(_id integer primary key autoincrement, score integer not null, level text not null, date text not null);]
   + String [drop table if exists memo_highscore]
   + Class [android/database/sqlite/SQLiteDatabase]
-  + Class [chan/android/game/memoblock/highscore/f]
+  + Class [chan/android/game/memoblock/highscore/g]
   + Class [java/lang/Object]
   + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
-  + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;)V]
   + NameAndType [a (Landroid/database/sqlite/SQLiteDatabase;)V]
   + NameAndType [execSQL (Ljava/lang/String;)V]
   + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
@@ -11145,7 +11391,7 @@ Constant Pool (count = 21):
   + Utf8 [Code]
   + Utf8 [a]
   + Utf8 [android/database/sqlite/SQLiteDatabase]
-  + Utf8 [chan/android/game/memoblock/highscore/f]
+  + Utf8 [chan/android/game/memoblock/highscore/g]
   + Utf8 [create table memo_highscore(_id integer primary key autoincrement, score integer not null, level text not null, date text not null);]
   + Utf8 [drop table if exists memo_highscore]
   + Utf8 [execSQL]
@@ -11179,8 +11425,246 @@ Methods (count = 2):
         + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
       [6] aload_0 v0
       [7] invokestatic #7
-        + Methodref [chan/android/game/memoblock/highscore/f.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+        + Methodref [chan/android/game/memoblock/highscore/g.a (Landroid/database/sqlite/SQLiteDatabase;)V]
       [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: chan/android/game/memoblock/highscore/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class chan.android.game.memoblock.highscore.h extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [chan/android/game/memoblock/highscore/e]
+
+Constant Pool (count = 95):
+  + String [date]
+  + String [date=?]
+  + String [level]
+  + String [score]
+  + String [yyyy-MM-dd HH:mm:ss]
+  + Class [android/content/ContentResolver]
+  + Class [android/content/ContentValues]
+  + Class [android/content/Context]
+  + Class [chan/android/game/memoblock/b]
+  + Class [chan/android/game/memoblock/highscore/HighScoreContentProvider]
+  + Class [chan/android/game/memoblock/highscore/e]
+  + Class [chan/android/game/memoblock/highscore/h]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/text/SimpleDateFormat]
+  + Class [java/util/Date]
+  + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
+  + Fieldref [chan/android/game/memoblock/highscore/h.a Ljava/text/SimpleDateFormat;]
+  + Fieldref [chan/android/game/memoblock/highscore/h.b Landroid/content/Context;]
+  + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + Methodref [android/content/ContentValues.<init> ()V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/Integer;)V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+  + Methodref [chan/android/game/memoblock/b.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+  + Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+  + Methodref [java/util/Date.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Landroid/net/Uri;]
+  + NameAndType [a Ljava/text/SimpleDateFormat;]
+  + NameAndType [b Landroid/content/Context;]
+  + NameAndType [delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [format (Ljava/util/Date;)Ljava/lang/String;]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getContentResolver ()Landroid/content/ContentResolver;]
+  + NameAndType [insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/Integer;)V]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()Landroid/content/ContentResolver;]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(ILchan/android/game/memoblock/b;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+  + Utf8 [(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/Integer;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/util/Date;)Ljava/lang/String;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/net/Uri;]
+  + Utf8 [Ljava/text/SimpleDateFormat;]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentResolver]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/content/Context]
+  + Utf8 [b]
+  + Utf8 [chan/android/game/memoblock/b]
+  + Utf8 [chan/android/game/memoblock/highscore/HighScoreContentProvider]
+  + Utf8 [chan/android/game/memoblock/highscore/e]
+  + Utf8 [chan/android/game/memoblock/highscore/h]
+  + Utf8 [date]
+  + Utf8 [date=?]
+  + Utf8 [delete]
+  + Utf8 [format]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getContentResolver]
+  + Utf8 [insert]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/text/SimpleDateFormat]
+  + Utf8 [java/util/Date]
+  + Utf8 [level]
+  + Utf8 [put]
+  + Utf8 [score]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+  + Utf8 [yyyy-MM-dd HH:mm:ss]
+
+Fields (count = 2):
+  + Field:        a Ljava/text/SimpleDateFormat;
+    Access flags: 0xa
+      = private static java.text.SimpleDateFormat a
+  + Field:        b Landroid/content/Context;
+    Access flags: 0x2
+      = private android.content.Context b
+
+Methods (count = 4):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public h(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] invokevirtual #26
+        + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+      [9] putfield #20
+        + Fieldref [chan/android/game/memoblock/highscore/h.b Landroid/content/Context;]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(ILchan/android/game/memoblock/b;)V
+    Access flags: 0x1
+      = public void a(int,chan.android.game.memoblock.b)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 67, locals = 5, stack = 4):
+      [0] new #7
+        + Class [android/content/ContentValues]
+      [3] dup
+      [4] invokespecial #23
+        + Methodref [android/content/ContentValues.<init> ()V]
+      [7] astore_3 v3
+      [8] aload_3 v3
+      [9] ldc #4
+        + String [score]
+      [11] iload_1 v1
+      [12] invokestatic #29
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [15] invokevirtual #24
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/Integer;)V]
+      [18] aload_3 v3
+      [19] ldc #3
+        + String [level]
+      [21] aload_2 v2
+      [22] invokevirtual #28
+        + Methodref [chan/android/game/memoblock/b.toString ()Ljava/lang/String;]
+      [25] invokevirtual #25
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [28] new #17
+        + Class [java/util/Date]
+      [31] dup
+      [32] invokespecial #33
+        + Methodref [java/util/Date.<init> ()V]
+      [35] astore v4
+      [37] aload_3 v3
+      [38] ldc #1
+        + String [date]
+      [40] getstatic #19
+        + Fieldref [chan/android/game/memoblock/highscore/h.a Ljava/text/SimpleDateFormat;]
+      [43] aload v4
+      [45] invokevirtual #32
+        + Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+      [48] invokevirtual #25
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [51] aload_0 v0
+      [52] getfield #20
+        + Fieldref [chan/android/game/memoblock/highscore/h.b Landroid/content/Context;]
+      [55] invokevirtual #27
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [58] getstatic #18
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
+      [61] aload_3 v3
+      [62] invokevirtual #22
+        + Methodref [android/content/ContentResolver.insert (Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;]
+      [65] pop
+      [66] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)Z
+    Access flags: 0x1
+      = public boolean a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 2, stack = 7):
+      [0] aload_0 v0
+      [1] getfield #20
+        + Fieldref [chan/android/game/memoblock/highscore/h.b Landroid/content/Context;]
+      [4] invokevirtual #27
+        + Methodref [android/content/Context.getContentResolver ()Landroid/content/ContentResolver;]
+      [7] getstatic #18
+        + Fieldref [chan/android/game/memoblock/highscore/HighScoreContentProvider.a Landroid/net/Uri;]
+      [10] ldc #2
+        + String [date=?]
+      [12] iconst_1
+      [13] anewarray #15
+        + Class [java/lang/String]
+      [16] dup
+      [17] iconst_0
+      [18] aload_1 v1
+      [19] aastore
+      [20] invokevirtual #21
+        + Methodref [android/content/ContentResolver.delete (Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I]
+      [23] pop
+      [24] iconst_0
+      [25] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 0, stack = 3):
+      [0] new #16
+        + Class [java/text/SimpleDateFormat]
+      [3] dup
+      [4] ldc #5
+        + String [yyyy-MM-dd HH:mm:ss]
+      [6] invokespecial #31
+        + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+      [9] putstatic #19
+        + Fieldref [chan/android/game/memoblock/highscore/h.a Ljava/text/SimpleDateFormat;]
+      [12] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
