@@ -147,7 +147,7 @@
                     android:layout_gravity="center_horizontal"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/darker_turquoise"
+                    android:textColor="@color/aluminum4"
                     android:text="2 more to go"
                     />
 
