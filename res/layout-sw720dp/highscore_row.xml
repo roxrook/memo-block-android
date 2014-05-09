@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="20dp"
+              android:background="@color/aluminum6"
+        >
+
+    <TextView
+            android:id="@+id/highscore_row_$_level"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:text="Level"
+            android:textColor="@color/brown_13"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+    <TextView
+            android:id="@+id/highscore_row_$_score"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Score"
+            android:textColor="@color/brown_13"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+    <TextView
+            android:id="@+id/highscore_row_$_date"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown_13"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Date"
+            android:gravity="left"/>
+</LinearLayout>
