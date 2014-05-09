@@ -46,16 +46,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
     private static final long NEXT_GAME_DELAY_TIME = 500;
 
     /**
-     * The tick time for clock
-     */
-    private static final long TOTAL_GAME_TIME = 61 * 1000;
-
-    /**
-     * The tick time for clock
-     */
-    private static final long CLOCK_TICK_TIME = 1000;
-
-    /**
      * Flipper to switch between main menu and game
      */
     private ViewFlipper viewFlipper;
@@ -82,11 +72,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
      * Best score view update only when it reaches total game
      */
     private ScoreBoxView bestScoreBoxView;
-
-    /**
-     * The current clock
-     */
-    private TextView clockTextView;
 
     /**
      * The current number of block being removed
@@ -153,8 +138,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
 
     private long timerCount = 0;
 
-    private CountDownTimer gameTimer;
-
     private CountDownTimer nextGameTimer;
 
     private CountDownTimer removePatternTimer;
@@ -199,10 +182,7 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
 
         currentScoreBoxView = (ScoreBoxView) findViewById(R.id.game_$_scoreboxview_current);
         bestScoreBoxView = (ScoreBoxView) findViewById(R.id.game_$_scoreboxview_best);
-
-        clockTextView = (TextView) findViewById(R.id.game_$_textview_clock);
         moveCountTextView = (TextView) findViewById(R.id.game_$_textview_move_count);
-
         patternView = (PatternView) findViewById(R.id.game_$_pattern_view);
         patternView.setOnMoveListener(this);
 
@@ -225,13 +205,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
 
         bestScoreBoxView.setScore(GameSettings.getBestScore());
         bestScoreBoxView.invalidate();
-
-        if (GameSettings.isClockEnabled()) {
-            clockTextView.setVisibility(View.VISIBLE);
-        } else {
-            clockTextView.setVisibility(View.GONE);
-        }
-
         showPatternTime = GameSettings.getDifficulty().delayTime;
     }
 
@@ -257,8 +230,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
         currentGameScore = 0;
         timerCount = 0;
         currentScoreBoxView.setScore(currentGameScore);
-        gameTimer = new CountDownGameTimer();
-        gameTimer.start();
         startNewGame(row, column);
     }
 
@@ -310,7 +281,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
     @Override
     public void onBackPressed() {
         if (viewFlipper.getDisplayedChild() == 1) {
-            cancelTimer(gameTimer);
             cancelTimer(nextGameTimer);
             cancelTimer(removePatternTimer);
             viewFlipper.setDisplayedChild(0);
@@ -363,7 +333,7 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
             patternView.setTouchable(false);
             patternView.setShowPattern(true);
             patternView.invalidate();
-            goToNextGame();
+            showGameOverDialog(currentGameScore);
             soundManager.playLoseSound();
             vibrator.vibrate(500);
         } else {
@@ -380,11 +350,8 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
     }
 
     private void goToNextGame() {
-        long seconds = TOTAL_GAME_TIME / 1000;
-        if (timerCount < seconds) {
-            nextGameTimer = new NextGameTimer();
-            nextGameTimer.start();
-        }
+        nextGameTimer = new NextGameTimer();
+        nextGameTimer.start();
     }
 
     private class RemovePatternTimer extends CountDownTimer {
@@ -423,25 +390,5 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
             // Don't care :)
         }
     }
-
-    private class CountDownGameTimer extends CountDownTimer {
-
-        public CountDownGameTimer() {
-            super(TOTAL_GAME_TIME, 1000);
-        }
-
-        @Override
-        public void onFinish() {
-            timerCount = 0;
-            patternView.setShowPattern(true);
-            patternView.setTouchable(false);
-            showGameOverDialog(currentGameScore);
-        }
-
-        @Override
-        public void onTick(long untilFinish) {
-            timerCount++;
-            clockTextView.setText("Time: " + String.format("00:%02d", timerCount));
-        }
-    }
 }
+

@@ -111,19 +111,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
-                <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_below="@id/game_$_scoreboxview_current"
-                        android:layout_toRightOf="@id/game_$_textview_title"
-                        android:layout_alignStart="@id/game_$_scoreboxview_current"
-                        android:id="@+id/game_$_textview_clock"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="00:00"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/dark_green"
-                        />
             </RelativeLayout>
 
             <TextView

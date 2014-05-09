@@ -16,8 +16,6 @@ public class SettingsActivity extends Activity {
 
     private CheckBox checkBoxSound;
 
-    private CheckBox checkBoxClock;
-
     private Spinner spinnerBackground;
 
     @Override
@@ -43,15 +41,11 @@ public class SettingsActivity extends Activity {
 
         checkBoxSound = (CheckBox) findViewById(R.id.setting_$_checkbox_sound);
         checkBoxSound.setChecked(GameSettings.isSoundEnabled());
-
-        checkBoxClock = (CheckBox) findViewById(R.id.setting_$_checkbox_clock);
-        checkBoxClock.setChecked(GameSettings.isClockEnabled());
     }
 
     @Override
     public void onBackPressed() {
         GameSettings.persistEnableSound(checkBoxSound.isChecked());
-        GameSettings.persistEnableClock(checkBoxClock.isChecked());
         super.onBackPressed();
     }
 
