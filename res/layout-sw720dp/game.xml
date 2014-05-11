@@ -20,12 +20,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="40sp"
+                    android:textSize="80sp"
                     android:textStyle="bold"
                     android:textColor="@color/textview_newgame"
                     android:text="New Game"
                     android:clickable="true"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="200dp"
                     />
 
             <TextView
@@ -33,7 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="40sp"
+                    android:textSize="80sp"
                     android:textStyle="bold"
                     android:textColor="@color/textview_settings"
                     android:text="Settings"
@@ -46,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="40sp"
+                    android:textSize="80sp"
                     android:textStyle="bold"
                     android:textColor="@color/textview_highscore"
                     android:clickable="true"
@@ -121,7 +121,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="20dp"
                     android:textStyle="bold"
-                    android:textSize="18sp"
+                    android:textSize="32sp"
                     android:layout_gravity="center_vertical"
                     android:textColor="@color/aluminum4"
                     />

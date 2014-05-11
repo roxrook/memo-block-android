@@ -5,10 +5,10 @@ chan.android.game.memoblock.GameActivity:
     private static final int MAX_ROW
     private static final int MAX_COLUMN
     private static final long NEXT_GAME_DELAY_TIME
-    private static final long TOTAL_GAME_TIME
-    private static final long CLOCK_TICK_TIME
 chan.android.game.memoblock.GameSettings:
     7:9:public GameSettings()
+    50:51:public static void persistEnableClock(boolean)
+    54:54:public static boolean isClockEnabled()
 chan.android.game.memoblock.Logger
 chan.android.game.memoblock.PatternGrid:
     public static final int EMPTY
@@ -34,11 +34,13 @@ chan.android.game.memoblock.R$raw
 chan.android.game.memoblock.R$string
 chan.android.game.memoblock.R$style
 chan.android.game.memoblock.R$styleable:
-    211:211:public R$styleable()
+    209:209:public R$styleable()
 chan.android.game.memoblock.RoundedRectListView:
     private static final float RADIUS
 chan.android.game.memoblock.ScoreBoxView:
     38:40:public void resetScore()
+chan.android.game.memoblock.generator.OneFourthGenerator
+chan.android.game.memoblock.generator.OneFourthGenerator$Position
 chan.android.game.memoblock.highscore.HighScoreActivity:
     83:84:private void toast(java.lang.String)
     184:189:public void shareHighScore(int)

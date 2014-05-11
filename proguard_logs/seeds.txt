@@ -116,7 +116,6 @@ chan.android.game.memoblock.R$id: int difficult_row_$_textview_level
 chan.android.game.memoblock.R$id: int game_$_pattern_view
 chan.android.game.memoblock.R$id: int game_$_scoreboxview_best
 chan.android.game.memoblock.R$id: int game_$_scoreboxview_current
-chan.android.game.memoblock.R$id: int game_$_textview_clock
 chan.android.game.memoblock.R$id: int game_$_textview_game_title
 chan.android.game.memoblock.R$id: int game_$_textview_highscore
 chan.android.game.memoblock.R$id: int game_$_textview_move_count
@@ -135,7 +134,6 @@ chan.android.game.memoblock.R$id: int main_$_linearlayout_outermost
 chan.android.game.memoblock.R$id: int score_box_$_textview_animation
 chan.android.game.memoblock.R$id: int score_box_$_textview_label
 chan.android.game.memoblock.R$id: int score_box_$_textview_score
-chan.android.game.memoblock.R$id: int setting_$_checkbox_clock
 chan.android.game.memoblock.R$id: int setting_$_checkbox_sound
 chan.android.game.memoblock.R$id: int setting_$_spinner_difficulty
 chan.android.game.memoblock.R$layout: int diffcult_row

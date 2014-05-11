@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:background="@color/brown_13"
@@ -14,12 +13,12 @@
             android:layout_height="match_parent">
 
         <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Settings"
                 android:layout_gravity="center_horizontal"
-                android:textSize="28sp"
+                android:textSize="64sp"
                 android:textStyle="bold"
                 android:textColor="@color/orange_2"
                 />
@@ -30,7 +29,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:textSize="32sp"
                 android:text="Sound"
                 android:textColor="@color/aluminum6"
                 android:textStyle="bold"
@@ -53,10 +52,10 @@
 
             <TextView
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="40dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
+                    android:textSize="32sp"
                     android:textColor="@color/aluminum6"
                     android:text="Level"
                     android:textStyle="bold"

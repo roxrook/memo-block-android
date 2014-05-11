@@ -14,8 +14,6 @@ import android.widget.TextView;
 import android.widget.ViewFlipper;
 import chan.android.game.memoblock.generator.Generatable;
 import chan.android.game.memoblock.generator.NthRandomGenerator;
-import chan.android.game.memoblock.generator.OneFourthGenerator;
-import chan.android.game.memoblock.generator.RandomGenerator;
 import chan.android.game.memoblock.highscore.HighScoreActivity;
 import chan.android.game.memoblock.highscore.HighScoreDataSource;
 import chan.android.game.memoblock.highscore.HighScoreManager;
@@ -92,16 +90,6 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
      * Score for a single game
      */
     private int currentGameScore = 0;
-
-    /**
-     * Random generator
-     */
-    private Generatable randomGenerator;
-
-    /**
-     * 1/4 generator
-     */
-    private Generatable oneFourthGenerator;
 
     /**
      * 1/4 generator
@@ -187,10 +175,7 @@ public class GameActivity extends Activity implements PatternView.OnMoveListener
         patternView.setOnMoveListener(this);
 
         random = new Random();
-        randomGenerator = new RandomGenerator();
-        oneFourthGenerator = new OneFourthGenerator();
         nthGenerator = new NthRandomGenerator();
-
         slideInAnimation = buildAnimation(patternView.getRootView());
     }
 

@@ -22,24 +22,20 @@ chan.android.game.memoblock.GameActivity -> chan.android.game.memoblock.GameActi
     chan.android.game.memoblock.PatternGrid patternGrid -> d
     chan.android.game.memoblock.ScoreBoxView currentScoreBoxView -> e
     chan.android.game.memoblock.ScoreBoxView bestScoreBoxView -> f
-    android.widget.TextView clockTextView -> g
-    android.widget.TextView moveCountTextView -> h
-    int row -> i
-    int column -> j
-    int currentGameScore -> k
-    chan.android.game.memoblock.generator.Generatable randomGenerator -> l
-    chan.android.game.memoblock.generator.Generatable oneFourthGenerator -> m
-    chan.android.game.memoblock.generator.Generatable nthGenerator -> n
-    java.util.Random random -> o
-    chan.android.game.memoblock.SoundManager soundManager -> p
-    android.os.Vibrator vibrator -> q
-    chan.android.game.memoblock.highscore.HighScoreDataSource highScoreDataSource -> r
-    long showPatternTime -> s
-    android.view.animation.AnimationSet slideInAnimation -> t
-    long timerCount -> u
-    android.os.CountDownTimer gameTimer -> v
-    android.os.CountDownTimer nextGameTimer -> w
-    android.os.CountDownTimer removePatternTimer -> x
+    android.widget.TextView moveCountTextView -> g
+    int row -> h
+    int column -> i
+    int currentGameScore -> j
+    chan.android.game.memoblock.generator.Generatable nthGenerator -> k
+    java.util.Random random -> l
+    chan.android.game.memoblock.SoundManager soundManager -> m
+    android.os.Vibrator vibrator -> n
+    chan.android.game.memoblock.highscore.HighScoreDataSource highScoreDataSource -> o
+    long showPatternTime -> p
+    android.view.animation.AnimationSet slideInAnimation -> q
+    long timerCount -> r
+    android.os.CountDownTimer nextGameTimer -> s
+    android.os.CountDownTimer removePatternTimer -> t
     void onCreate(android.os.Bundle) -> onCreate
     void onResume() -> onResume
     android.view.animation.AnimationSet buildAnimation(android.view.View) -> a
@@ -63,11 +59,6 @@ chan.android.game.memoblock.GameActivity -> chan.android.game.memoblock.GameActi
     int access$600(chan.android.game.memoblock.GameActivity) -> f
     int access$700(chan.android.game.memoblock.GameActivity) -> g
     void access$800(chan.android.game.memoblock.GameActivity,int,int) -> a
-    long access$902(chan.android.game.memoblock.GameActivity,long) -> a
-    int access$1000(chan.android.game.memoblock.GameActivity) -> h
-    long access$908(chan.android.game.memoblock.GameActivity) -> i
-    long access$900(chan.android.game.memoblock.GameActivity) -> j
-    android.widget.TextView access$1100(chan.android.game.memoblock.GameActivity) -> k
 chan.android.game.memoblock.GameActivity$1 -> chan.android.game.memoblock.c:
     chan.android.game.memoblock.GameActivity this$0 -> a
     void onClick(android.view.View) -> onClick
@@ -82,32 +73,28 @@ chan.android.game.memoblock.GameActivity$4 -> chan.android.game.memoblock.f:
     chan.android.game.memoblock.GameActivity this$0 -> b
     void onLeftClick() -> a
     void onRightClick() -> b
-chan.android.game.memoblock.GameActivity$CountDownGameTimer -> chan.android.game.memoblock.g:
+chan.android.game.memoblock.GameActivity$NextGameTimer -> chan.android.game.memoblock.g:
     chan.android.game.memoblock.GameActivity this$0 -> a
     void onFinish() -> onFinish
     void onTick(long) -> onTick
-chan.android.game.memoblock.GameActivity$NextGameTimer -> chan.android.game.memoblock.h:
+chan.android.game.memoblock.GameActivity$RemovePatternTimer -> chan.android.game.memoblock.h:
     chan.android.game.memoblock.GameActivity this$0 -> a
     void onFinish() -> onFinish
     void onTick(long) -> onTick
-chan.android.game.memoblock.GameActivity$RemovePatternTimer -> chan.android.game.memoblock.i:
-    chan.android.game.memoblock.GameActivity this$0 -> a
-    void onFinish() -> onFinish
-    void onTick(long) -> onTick
-chan.android.game.memoblock.GameDialog -> chan.android.game.memoblock.j:
+chan.android.game.memoblock.GameDialog -> chan.android.game.memoblock.i:
     chan.android.game.memoblock.GameDialog$OnGameDialogClickListener listener -> a
     void setOnGameDialogClickListener(chan.android.game.memoblock.GameDialog$OnGameDialogClickListener) -> a
     chan.android.game.memoblock.GameDialog$OnGameDialogClickListener access$000(chan.android.game.memoblock.GameDialog) -> a
-chan.android.game.memoblock.GameDialog$1 -> chan.android.game.memoblock.k:
+chan.android.game.memoblock.GameDialog$1 -> chan.android.game.memoblock.j:
     chan.android.game.memoblock.GameDialog this$0 -> a
     void onClick(android.view.View) -> onClick
-chan.android.game.memoblock.GameDialog$2 -> chan.android.game.memoblock.l:
+chan.android.game.memoblock.GameDialog$2 -> chan.android.game.memoblock.k:
     chan.android.game.memoblock.GameDialog this$0 -> a
     void onClick(android.view.View) -> onClick
-chan.android.game.memoblock.GameDialog$OnGameDialogClickListener -> chan.android.game.memoblock.m:
+chan.android.game.memoblock.GameDialog$OnGameDialogClickListener -> chan.android.game.memoblock.l:
     void onLeftClick() -> a
     void onRightClick() -> b
-chan.android.game.memoblock.GameSettings -> chan.android.game.memoblock.n:
+chan.android.game.memoblock.GameSettings -> chan.android.game.memoblock.m:
     android.content.SharedPreferences prefs -> a
     void initialize(android.content.Context) -> a
     void persistNewestScoreDate(java.lang.String) -> a
@@ -116,11 +103,9 @@ chan.android.game.memoblock.GameSettings -> chan.android.game.memoblock.n:
     int getBestScore() -> b
     void persistEnableSound(boolean) -> a
     boolean isSoundEnabled() -> c
-    void persistEnableClock(boolean) -> b
-    boolean isClockEnabled() -> d
     void persistDifficulty(chan.android.game.memoblock.Difficulty) -> a
-    chan.android.game.memoblock.Difficulty getDifficulty() -> e
-chan.android.game.memoblock.GameSettings$Key -> chan.android.game.memoblock.o:
+    chan.android.game.memoblock.Difficulty getDifficulty() -> d
+chan.android.game.memoblock.GameSettings$Key -> chan.android.game.memoblock.n:
     chan.android.game.memoblock.GameSettings$Key ENABLE_SOUND -> a
     chan.android.game.memoblock.GameSettings$Key ENABLE_CLOCK -> b
     chan.android.game.memoblock.GameSettings$Key BEST_SCORE -> c
@@ -131,14 +116,14 @@ chan.android.game.memoblock.GameSettings$Key -> chan.android.game.memoblock.o:
     chan.android.game.memoblock.GameSettings$Key valueOf(java.lang.String) -> valueOf
 chan.android.game.memoblock.MemoBlockApplication -> chan.android.game.memoblock.MemoBlockApplication:
     void onCreate() -> onCreate
-chan.android.game.memoblock.MoveState -> chan.android.game.memoblock.p:
+chan.android.game.memoblock.MoveState -> chan.android.game.memoblock.o:
     chan.android.game.memoblock.MoveState NEUTRAL -> a
     chan.android.game.memoblock.MoveState LOST -> b
     chan.android.game.memoblock.MoveState WON -> c
     chan.android.game.memoblock.MoveState[] $VALUES -> d
     chan.android.game.memoblock.MoveState[] values() -> values
     chan.android.game.memoblock.MoveState valueOf(java.lang.String) -> valueOf
-chan.android.game.memoblock.PatternGrid -> chan.android.game.memoblock.q:
+chan.android.game.memoblock.PatternGrid -> chan.android.game.memoblock.p:
     int row -> a
     int column -> b
     int[][] grid -> c
@@ -192,10 +177,10 @@ chan.android.game.memoblock.PatternView -> chan.android.game.memoblock.PatternVi
     chan.android.game.memoblock.MoveState getMoveState() -> getMoveState
     void setTouchable(boolean) -> setTouchable
     void setShowPattern(boolean) -> setShowPattern
-chan.android.game.memoblock.PatternView$OnMoveListener -> chan.android.game.memoblock.r:
+chan.android.game.memoblock.PatternView$OnMoveListener -> chan.android.game.memoblock.q:
     void onMove(chan.android.game.memoblock.Cell) -> a
-chan.android.game.memoblock.R -> chan.android.game.memoblock.s:
-chan.android.game.memoblock.R$styleable -> chan.android.game.memoblock.t:
+chan.android.game.memoblock.R -> chan.android.game.memoblock.r:
+chan.android.game.memoblock.R$styleable -> chan.android.game.memoblock.s:
     int[] PatternView -> PatternView
     int PatternView_background_color -> PatternView_background_color
     int PatternView_border_width -> PatternView_border_width
@@ -219,23 +204,22 @@ chan.android.game.memoblock.ScoreBoxView -> chan.android.game.memoblock.ScoreBox
     void parseAttributes(android.content.Context,android.util.AttributeSet) -> a
     void addScore(int) -> a
     android.widget.TextView access$000(chan.android.game.memoblock.ScoreBoxView) -> a
-chan.android.game.memoblock.ScoreBoxView$1 -> chan.android.game.memoblock.u:
+chan.android.game.memoblock.ScoreBoxView$1 -> chan.android.game.memoblock.t:
     chan.android.game.memoblock.ScoreBoxView this$0 -> a
     void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
     void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
     void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
 chan.android.game.memoblock.SettingsActivity -> chan.android.game.memoblock.SettingsActivity:
     android.widget.CheckBox checkBoxSound -> a
-    android.widget.CheckBox checkBoxClock -> b
-    android.widget.Spinner spinnerBackground -> c
+    android.widget.Spinner spinnerBackground -> b
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
-chan.android.game.memoblock.SettingsActivity$1 -> chan.android.game.memoblock.v:
+chan.android.game.memoblock.SettingsActivity$1 -> chan.android.game.memoblock.u:
     chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter val$adapter -> a
     chan.android.game.memoblock.SettingsActivity this$0 -> b
     void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
     void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
-chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter -> chan.android.game.memoblock.w:
+chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter -> chan.android.game.memoblock.v:
     java.util.List levels -> a
     android.content.Context context -> b
     int getCount() -> getCount
@@ -244,9 +228,9 @@ chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter -> chan.android.
     int indexOf(chan.android.game.memoblock.Difficulty) -> a
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
     java.lang.Object getItem(int) -> getItem
-chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter$ViewHolder -> chan.android.game.memoblock.x:
+chan.android.game.memoblock.SettingsActivity$CustomArrayAdapter$ViewHolder -> chan.android.game.memoblock.w:
     android.widget.TextView name -> a
-chan.android.game.memoblock.SoundManager -> chan.android.game.memoblock.y:
+chan.android.game.memoblock.SoundManager -> chan.android.game.memoblock.x:
     int win -> a
     int lose -> b
     int move -> c
@@ -274,18 +258,7 @@ chan.android.game.memoblock.generator.NthRandomGenerator -> chan.android.game.me
 chan.android.game.memoblock.generator.NthRandomGenerator$Position -> chan.android.game.memoblock.a.c:
     int x -> a
     int y -> b
-chan.android.game.memoblock.generator.OneFourthGenerator -> chan.android.game.memoblock.a.d:
-    java.util.Random random -> a
-    chan.android.game.memoblock.generator.OneFourthGenerator$Position[] positions -> b
-    void initializePositions(int,int) -> a
-    int generate(int[][]) -> a
-    int random(int,int) -> b
-    void pick(int) -> a
-    void swap(int,int) -> c
-chan.android.game.memoblock.generator.OneFourthGenerator$Position -> chan.android.game.memoblock.a.e:
-    int x -> a
-    int y -> b
-chan.android.game.memoblock.generator.RandomGenerator -> chan.android.game.memoblock.a.f:
+chan.android.game.memoblock.generator.RandomGenerator -> chan.android.game.memoblock.a.d:
     int RANDOM_NUMBER -> a
     java.util.Random random -> b
     int generate(int[][]) -> a
