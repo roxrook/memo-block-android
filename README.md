@@ -4,16 +4,16 @@ memo-block-android
 A great game to exercise your memory!
 
 ##GamePlay
-*Try to uncover all hidden blocks as quick as possible. Once you complete a full pattern grid, it will move to the next and so on.
-*The more game you complete, the higher you score.
+* Try to uncover all hidden blocks as quick as possible. Once you complete a full pattern grid, it will move to the next and so on.
+* The more game you complete, the higher you score.
 
 ##Features
 
-*No ads and lightweight.
-*Easy and fun to play.
-*Help exercising memory.
-*Be able to save high score.
-*Have 4 difficulty levels: Extreme, Hard, Normal, Easy.
+* No ads and lightweight.
+* Easy and fun to play.
+* Help exercising memory.
+* Be able to save high score.
+* Have 4 difficulty levels: Extreme, Hard, Normal, Easy.
 
 You can find it on Google Play Store:
 https://play.google.com/store/apps/details?id=chan.android.game.memoblock
