@@ -1,7 +1,7 @@
-2048-android
+memo-block-android
 ============
 
-Android version of Gabriele Cirulli's 2048 game
+A great game to exercise your memory!
 
 ##GamePlay
 *Try to uncover all hidden blocks as quick as possible. Once you complete a full pattern grid, it will move to the next and so on.
