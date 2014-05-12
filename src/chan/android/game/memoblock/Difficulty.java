@@ -3,10 +3,10 @@ package chan.android.game.memoblock;
 
 public enum Difficulty {
 
-    EASY(3000),
-    NORMAL(2000),
-    DIFFICULT(1000),
-    EXTREME(700);
+    EASY(1000),
+    NORMAL(800),
+    DIFFICULT(700),
+    EXTREME(600);
 
     final long delayTime;
 
@@ -19,13 +19,13 @@ public enum Difficulty {
     }
 
     public static Difficulty getEnum(long delayTime) {
-        if (delayTime == 3000) {
+        if (delayTime == EASY.delayTime) {
             return EASY;
-        } else if (delayTime == 2000) {
+        } else if (delayTime == NORMAL.delayTime) {
             return NORMAL;
-        } else if (delayTime == 1000) {
+        } else if (delayTime == DIFFICULT.delayTime) {
             return DIFFICULT;
-        } else if (delayTime == 700) {
+        } else if (delayTime == EXTREME.delayTime) {
             return EXTREME;
         }
         return EASY;
@@ -33,13 +33,13 @@ public enum Difficulty {
 
     @Override
     public String toString() {
-        if (delayTime == 3000) {
+        if (delayTime == EASY.delayTime) {
             return "Easy";
-        } else if (delayTime == 2000) {
+        } else if (delayTime == NORMAL.delayTime) {
             return "Normal";
-        } else if (delayTime == 1000) {
+        } else if (delayTime == DIFFICULT.delayTime) {
             return "Difficult";
-        } else if (delayTime == 700) {
+        } else if (delayTime == EXTREME.delayTime) {
             return "Extreme";
         }
         return "Easy";

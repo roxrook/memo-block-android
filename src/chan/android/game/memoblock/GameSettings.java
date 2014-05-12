@@ -59,6 +59,6 @@ public class GameSettings {
     }
 
     public static Difficulty getDifficulty() {
-        return Difficulty.getEnum(prefs.getLong(Key.DIFFICULTY.name(), Difficulty.EASY.delayTime));
+        return Difficulty.getEnum(prefs.getLong(Key.DIFFICULTY.name(), Difficulty.EXTREME.delayTime));
     }
 }

@@ -133,10 +133,10 @@ Constant Pool (count = 77):
   + Class [[Lchan/android/game/memoblock/b;]
   + Class [chan/android/game/memoblock/b]
   + Class [java/lang/Enum]
+  + Long [600]
   + Long [700]
+  + Long [800]
   + Long [1000]
-  + Long [2000]
-  + Long [3000]
   + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
   + Fieldref [chan/android/game/memoblock/b.b Lchan/android/game/memoblock/b;]
   + Fieldref [chan/android/game/memoblock/b.c Lchan/android/game/memoblock/b;]
@@ -277,104 +277,120 @@ Methods (count = 7):
     Access flags: 0x9
       = public static chan.android.game.memoblock.b a(long)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 52, locals = 2, stack = 4):
+    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
       [0] lload_0 v0
-      [1] ldc2_w #18
-        + Long [3000]
-      [4] lcmp
-      [5] ifne +7 (target=12)
-      [8] getstatic #20
+      [1] getstatic #20
         + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
-      [11] areturn
-      [12] lload_0 v0
-      [13] ldc2_w #16
-        + Long [2000]
-      [16] lcmp
-      [17] ifne +7 (target=24)
-      [20] getstatic #21
+      [4] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [7] lcmp
+      [8] ifne +7 (target=15)
+      [11] getstatic #20
+        + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
+      [14] areturn
+      [15] lload_0 v0
+      [16] getstatic #21
         + Fieldref [chan/android/game/memoblock/b.b Lchan/android/game/memoblock/b;]
-      [23] areturn
-      [24] lload_0 v0
-      [25] ldc2_w #14
-        + Long [1000]
-      [28] lcmp
-      [29] ifne +7 (target=36)
-      [32] getstatic #22
+      [19] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [22] lcmp
+      [23] ifne +7 (target=30)
+      [26] getstatic #21
+        + Fieldref [chan/android/game/memoblock/b.b Lchan/android/game/memoblock/b;]
+      [29] areturn
+      [30] lload_0 v0
+      [31] getstatic #22
         + Fieldref [chan/android/game/memoblock/b.c Lchan/android/game/memoblock/b;]
-      [35] areturn
-      [36] lload_0 v0
-      [37] ldc2_w #12
-        + Long [700]
-      [40] lcmp
-      [41] ifne +7 (target=48)
-      [44] getstatic #23
+      [34] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [37] lcmp
+      [38] ifne +7 (target=45)
+      [41] getstatic #22
+        + Fieldref [chan/android/game/memoblock/b.c Lchan/android/game/memoblock/b;]
+      [44] areturn
+      [45] lload_0 v0
+      [46] getstatic #23
         + Fieldref [chan/android/game/memoblock/b.d Lchan/android/game/memoblock/b;]
-      [47] areturn
-      [48] getstatic #20
+      [49] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [52] lcmp
+      [53] ifne +7 (target=60)
+      [56] getstatic #23
+        + Fieldref [chan/android/game/memoblock/b.d Lchan/android/game/memoblock/b;]
+      [59] areturn
+      [60] getstatic #20
         + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
-      [51] areturn
+      [63] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 4):
-        - [12] Var: ..., Stack: (empty)
-        - [24] Var: ..., Stack: (empty)
-        - [36] Var: ..., Stack: (empty)
-        - [48] Var: ..., Stack: (empty)
+        - [15] Var: ..., Stack: (empty)
+        - [30] Var: ..., Stack: (empty)
+        - [45] Var: ..., Stack: (empty)
+        - [60] Var: ..., Stack: (empty)
   + Method:       toString()Ljava/lang/String;
     Access flags: 0x1
       = public java.lang.String toString()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 59, locals = 1, stack = 4):
+    + Code attribute instructions (code length = 71, locals = 1, stack = 4):
       [0] aload_0 v0
       [1] getfield #24
         + Fieldref [chan/android/game/memoblock/b.e J]
-      [4] ldc2_w #18
-        + Long [3000]
-      [7] lcmp
-      [8] ifne +6 (target=14)
-      [11] ldc #5
-        + String [Easy]
-      [13] areturn
-      [14] aload_0 v0
-      [15] getfield #24
+      [4] getstatic #20
+        + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
+      [7] getfield #24
         + Fieldref [chan/android/game/memoblock/b.e J]
-      [18] ldc2_w #16
-        + Long [2000]
-      [21] lcmp
-      [22] ifne +6 (target=28)
-      [25] ldc #8
+      [10] lcmp
+      [11] ifne +6 (target=17)
+      [14] ldc #5
+        + String [Easy]
+      [16] areturn
+      [17] aload_0 v0
+      [18] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [21] getstatic #21
+        + Fieldref [chan/android/game/memoblock/b.b Lchan/android/game/memoblock/b;]
+      [24] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [27] lcmp
+      [28] ifne +6 (target=34)
+      [31] ldc #8
         + String [Normal]
-      [27] areturn
-      [28] aload_0 v0
-      [29] getfield #24
+      [33] areturn
+      [34] aload_0 v0
+      [35] getfield #24
         + Fieldref [chan/android/game/memoblock/b.e J]
-      [32] ldc2_w #14
-        + Long [1000]
-      [35] lcmp
-      [36] ifne +6 (target=42)
-      [39] ldc #2
+      [38] getstatic #22
+        + Fieldref [chan/android/game/memoblock/b.c Lchan/android/game/memoblock/b;]
+      [41] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [44] lcmp
+      [45] ifne +6 (target=51)
+      [48] ldc #2
         + String [Difficult]
-      [41] areturn
-      [42] aload_0 v0
-      [43] getfield #24
+      [50] areturn
+      [51] aload_0 v0
+      [52] getfield #24
         + Fieldref [chan/android/game/memoblock/b.e J]
-      [46] ldc2_w #12
-        + Long [700]
-      [49] lcmp
-      [50] ifne +6 (target=56)
-      [53] ldc #6
+      [55] getstatic #23
+        + Fieldref [chan/android/game/memoblock/b.d Lchan/android/game/memoblock/b;]
+      [58] getfield #24
+        + Fieldref [chan/android/game/memoblock/b.e J]
+      [61] lcmp
+      [62] ifne +6 (target=68)
+      [65] ldc #6
         + String [Extreme]
-      [55] areturn
-      [56] ldc #5
+      [67] areturn
+      [68] ldc #5
         + String [Easy]
-      [58] areturn
+      [70] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 4):
-        - [14] Var: ..., Stack: (empty)
-        - [28] Var: ..., Stack: (empty)
-        - [42] Var: ..., Stack: (empty)
-        - [56] Var: ..., Stack: (empty)
+        - [17] Var: ..., Stack: (empty)
+        - [34] Var: ..., Stack: (empty)
+        - [51] Var: ..., Stack: (empty)
+        - [68] Var: ..., Stack: (empty)
   - Method:       <clinit>()V
     Access flags: 0x8
       = static void <clinit>()
@@ -387,7 +403,7 @@ Methods (count = 7):
         + String [EASY]
       [6] iconst_0
       [7] ldc2_w #18
-        + Long [3000]
+        + Long [1000]
       [10] invokespecial #27
         + Methodref [chan/android/game/memoblock/b.<init> (Ljava/lang/String;IJ)V]
       [13] putstatic #20
@@ -399,7 +415,7 @@ Methods (count = 7):
         + String [NORMAL]
       [22] iconst_1
       [23] ldc2_w #16
-        + Long [2000]
+        + Long [800]
       [26] invokespecial #27
         + Methodref [chan/android/game/memoblock/b.<init> (Ljava/lang/String;IJ)V]
       [29] putstatic #21
@@ -411,7 +427,7 @@ Methods (count = 7):
         + String [DIFFICULT]
       [38] iconst_2
       [39] ldc2_w #14
-        + Long [1000]
+        + Long [700]
       [42] invokespecial #27
         + Methodref [chan/android/game/memoblock/b.<init> (Ljava/lang/String;IJ)V]
       [45] putstatic #22
@@ -423,7 +439,7 @@ Methods (count = 7):
         + String [EXTREME]
       [54] iconst_3
       [55] ldc2_w #12
-        + Long [700]
+        + Long [600]
       [58] invokespecial #27
         + Methodref [chan/android/game/memoblock/b.<init> (Ljava/lang/String;IJ)V]
       [61] putstatic #23
@@ -3094,7 +3110,7 @@ Constant Pool (count = 103):
   + Class [chan/android/game/memoblock/m]
   + Class [chan/android/game/memoblock/n]
   + Class [java/lang/Object]
-  + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
+  + Fieldref [chan/android/game/memoblock/b.d Lchan/android/game/memoblock/b;]
   + Fieldref [chan/android/game/memoblock/b.e J]
   + Fieldref [chan/android/game/memoblock/m.a Landroid/content/SharedPreferences;]
   + Fieldref [chan/android/game/memoblock/n.a Lchan/android/game/memoblock/n;]
@@ -3118,10 +3134,10 @@ Constant Pool (count = 103):
   + NameAndType [a ()J]
   + NameAndType [a (J)Lchan/android/game/memoblock/b;]
   + NameAndType [a Landroid/content/SharedPreferences;]
-  + NameAndType [a Lchan/android/game/memoblock/b;]
   + NameAndType [a Lchan/android/game/memoblock/n;]
   + NameAndType [c Lchan/android/game/memoblock/n;]
   + NameAndType [commit ()Z]
+  + NameAndType [d Lchan/android/game/memoblock/b;]
   + NameAndType [d Lchan/android/game/memoblock/n;]
   + NameAndType [e J]
   + NameAndType [e Lchan/android/game/memoblock/n;]
@@ -3369,7 +3385,7 @@ Methods (count = 9):
       [6] invokevirtual #19
         + Methodref [chan/android/game/memoblock/n.name ()Ljava/lang/String;]
       [9] getstatic #9
-        + Fieldref [chan/android/game/memoblock/b.a Lchan/android/game/memoblock/b;]
+        + Fieldref [chan/android/game/memoblock/b.d Lchan/android/game/memoblock/b;]
       [12] getfield #10
         + Fieldref [chan/android/game/memoblock/b.e J]
       [15] invokeinterface #23
